@@ -16,10 +16,10 @@
 3. [WMTS サーバーの追加] ウィンドウの [URL] に以下の URL を入力し（それ以外は空欄）、[OK] をクリックします。
 
  <span style="FONT-WEIGHT: bold">地図・空中写真</span></br>
- [http://esrijapan.github.io/gsiwtms/chizu_shashin.xml](./chizu_shashin.xml)
+ [http://esrijapan.github.io/gsi-wmts/chizu_shashin.xml](./chizu_shashin.xml)
 
  <span style="FONT-WEIGHT: bold">防災関連</span></br>
- [http://esrijapan.github.io/gsiwtms/bousai.xml](./bousai.xml)
+ [http://esrijapan.github.io/gsi-wmts/bousai.xml](./bousai.xml)
 
 4. [カタログ] ウィンドウの [GIS Servers] フォルダーに追加された「esrijapan.github.io」を展開し、ドラッグ &amp; ドロップで ArcMap にレイヤーを追加します。
 
