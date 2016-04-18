@@ -122,18 +122,6 @@
       <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20131017dol2/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
-      <ows:Title>災害対応_火山_西之島付近_正射画像_2016/3/3（無人航空機（UAV）撮影）</ows:Title>
-      <ows:Identifier>20160303dol</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Style>
-      <Format>image/png</Format>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160303dol/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
       <ows:Title>防災関連_西之島付近噴火活動_正射画像_2015.12.9</ows:Title>
       <ows:Identifier>20151209dol</ows:Identifier>
       <Style isDefault="true">
@@ -516,6 +504,174 @@
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20150911dol5/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+<Layer>
+      <ows:Title>災害対応_地震_平成28年熊本地震_写真_益城地区_益城地区正射画像(4/15撮影)</ows:Title>
+      <ows:Identifier>20160414kumamoto_0415dol1</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0415dol1/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>災害対応_地震_平成28年熊本地震_写真_熊本南地区_熊本南地区正射画像(4/15撮影)</ows:Title>
+      <ows:Identifier>20160414kumamoto_0415dol2</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0415dol2/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>災害対応_地震_平成28年熊本地震_写真_宇土地区_宇土地区正射画像(4/16撮影)</ows:Title>
+      <ows:Identifier>20160414kumamoto_0416dol2</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0416dol2/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>災害対応_地震_平成28年熊本地震_写真_宇城地区_宇城地区正射画像(4/15撮影)</ows:Title>
+      <ows:Identifier>20160414kumamoto_0415dol3</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0415dol3/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>災害対応_地震_平成28年熊本地震_写真_合志地区_合志地区正射画像(4/16撮影)</ows:Title>
+      <ows:Identifier>20160414kumamoto_0416dol3</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0416dol3/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>災害対応_地震_平成28年熊本地震_写真_西原地区_西原地区正射画像(4/16撮影)</ows:Title>
+      <ows:Identifier>20160414kumamoto_0416dol4</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0416dol4/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>災害対応_地震_平成28年熊本地震_写真_阿蘇地区_阿蘇地区正射画像(4/16撮影)</ows:Title>
+      <ows:Identifier>20160414kumamoto_0416dol5</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0416dol5/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>災害対応_地震_平成28年熊本地震_写真_南阿蘇地区_南阿蘇地区正射画像(4/16撮影)</ows:Title>
+      <ows:Identifier>20160414kumamoto_0416dol6</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0416dol6/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>災害対応_地震_平成28年熊本地震_写真_別府地区_別府地区正射画像(4/16撮影)</ows:Title>
+      <ows:Identifier>20160414kumamoto_0416dol7</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0416dol7/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>災害対応_地震_平成28年熊本地震_写真_写真（2007年～）</ows:Title>
+      <ows:Identifier>_ort20160414</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/jpg</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/jpg" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/ort/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+    </Layer>
+    <Layer>
+      <ows:Title>災害対応_地震_平成28年熊本地震_写真_簡易空中写真（2004年～）</ows:Title>
+      <ows:Identifier>_airphoto20160417</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/airphoto/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>災害対応_地震_平成28年熊本地震_都市圏活断層図_都市圏活断層図</ows:Title>
+      <ows:Identifier>_afm20160414</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/afm/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>災害対応_地震_平成28年熊本地震_SAR解析結果_2014/11/14～2016/04/15_DL</ows:Title>
+      <ows:Identifier>urgent_earthquake_20160414kumamoto_20141114_20160415_u06l</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://insarmap.gsi.go.jp/xyz/urgent_earthquake_20160414kumamoto_20141114_20160415_u06l/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>災害対応_地震_平成28年熊本地震_SAR解析結果_活断層図（地震調査研究推進本部）</ows:Title>
+      <ows:Identifier>toshiken_katsudansouzu</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://insarmap.gsi.go.jp/xyz/active_fault_suihon/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <TileMatrixSet>
       <ows:Identifier>z2to18</ows:Identifier>
