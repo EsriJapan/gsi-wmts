@@ -63,6 +63,138 @@
   <ServiceMetadataURL xlink:href="http://esrijapan.github.io/gsi-wmts/saigai.xml" />
   <Contents>
     <Layer>
+      <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_湯布院地区正射画像（4/20撮影）</ows:Title>
+      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol11</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol11/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_竹田地区正射画像（4/20撮影）</ows:Title>
+      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol10</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol10/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_菊池地区正射画像（4/20撮影）</ows:Title>
+      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol09</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol09/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_山鹿地区正射画像（4/20撮影）</ows:Title>
+      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol08</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol08/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_玉名地区正射画像（4/20撮影）</ows:Title>
+      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol07</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol07/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_御船地区正射画像（4/20撮影）</ows:Title>
+      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol04</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol04/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_八代地区正射画像（4/20撮影）</ows:Title>
+      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol05</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol05/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_南阿蘇2地区正射画像（4/20撮影）</ows:Title>
+      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol03</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol03/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_天草地区正射画像（4/19,4/20撮影）</ows:Title>
+      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol06</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol06/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_阿蘇2地区正射画像（4/20撮影）</ows:Title>
+      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol02</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol02/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_西原2地区正射画像（4/20撮影）</ows:Title>
+      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol01</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol01/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
       <ows:Title>空中写真・衛星画像_東日本大震災後正射画像_2013年9月～2013年12月</ows:Title>
       <ows:Identifier>toho4</ows:Identifier>
       <Style isDefault="true">
@@ -121,18 +253,6 @@
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol03/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
-      <ows:Title>災害対応_地震_平成28年熊本地震_写真_正射画像_西原2地区正射画像（4/20撮影）</ows:Title>
-      <ows:Identifier>20160414kumamoto_0420dol01</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Style>
-      <Format>image/png</Format>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol01/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>災害対応_地震_平成28年熊本地震_写真_正射画像_南阿蘇2地区A正射画像（4/19撮影）</ows:Title>
@@ -4044,136 +4164,4 @@
       </TileMatrix>
     </TileMatrixSet>
   </Contents>
-  <Layer>
-    <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_西原2地区正射画像（4/20撮影）</ows:Title>
-    <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol01</ows:Identifier>
-    <Style isDefault="true">
-      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
-    </Style>
-    <Format>image/png</Format>
-    <TileMatrixSetLink>
-      <TileMatrixSet>z2to18</TileMatrixSet>
-    </TileMatrixSetLink>
-    <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol01/{TileMatrix}/{TileCol}/{TileRow}.png" />
-  </Layer>
-  <Layer>
-    <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_阿蘇2地区正射画像（4/20撮影）</ows:Title>
-    <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol02</ows:Identifier>
-    <Style isDefault="true">
-      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
-    </Style>
-    <Format>image/png</Format>
-    <TileMatrixSetLink>
-      <TileMatrixSet>z2to18</TileMatrixSet>
-    </TileMatrixSetLink>
-    <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol02/{TileMatrix}/{TileCol}/{TileRow}.png" />
-  </Layer>
-  <Layer>
-    <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_南阿蘇2地区正射画像（4/20撮影）</ows:Title>
-    <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol03</ows:Identifier>
-    <Style isDefault="true">
-      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
-    </Style>
-    <Format>image/png</Format>
-    <TileMatrixSetLink>
-      <TileMatrixSet>z2to18</TileMatrixSet>
-    </TileMatrixSetLink>
-    <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol03/{TileMatrix}/{TileCol}/{TileRow}.png" />
-  </Layer>
-  <Layer>
-    <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_御船地区正射画像（4/20撮影）</ows:Title>
-    <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol04</ows:Identifier>
-    <Style isDefault="true">
-      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
-    </Style>
-    <Format>image/png</Format>
-    <TileMatrixSetLink>
-      <TileMatrixSet>z2to18</TileMatrixSet>
-    </TileMatrixSetLink>
-    <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol04/{TileMatrix}/{TileCol}/{TileRow}.png" />
-  </Layer>
-  <Layer>
-    <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_八代地区正射画像（4/20撮影）</ows:Title>
-    <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol05</ows:Identifier>
-    <Style isDefault="true">
-      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
-    </Style>
-    <Format>image/png</Format>
-    <TileMatrixSetLink>
-      <TileMatrixSet>z2to18</TileMatrixSet>
-    </TileMatrixSetLink>
-    <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol05/{TileMatrix}/{TileCol}/{TileRow}.png" />
-  </Layer>
-  <Layer>
-    <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_天草地区正射画像（4/19,4/20撮影）</ows:Title>
-    <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol06</ows:Identifier>
-    <Style isDefault="true">
-      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
-    </Style>
-    <Format>image/png</Format>
-    <TileMatrixSetLink>
-      <TileMatrixSet>z2to18</TileMatrixSet>
-    </TileMatrixSetLink>
-    <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol06/{TileMatrix}/{TileCol}/{TileRow}.png" />
-  </Layer>
-  <Layer>
-    <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_玉名地区正射画像（4/20撮影）</ows:Title>
-    <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol07</ows:Identifier>
-    <Style isDefault="true">
-      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
-    </Style>
-    <Format>image/png</Format>
-    <TileMatrixSetLink>
-      <TileMatrixSet>z2to18</TileMatrixSet>
-    </TileMatrixSetLink>
-    <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol07/{TileMatrix}/{TileCol}/{TileRow}.png" />
-  </Layer>
-  <Layer>
-    <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_山鹿地区正射画像（4/20撮影）</ows:Title>
-    <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol08</ows:Identifier>
-    <Style isDefault="true">
-      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
-    </Style>
-    <Format>image/png</Format>
-    <TileMatrixSetLink>
-      <TileMatrixSet>z2to18</TileMatrixSet>
-    </TileMatrixSetLink>
-    <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol08/{TileMatrix}/{TileCol}/{TileRow}.png" />
-  </Layer>
-  <Layer>
-    <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_菊池地区正射画像（4/20撮影）</ows:Title>
-    <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol09</ows:Identifier>
-    <Style isDefault="true">
-      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
-    </Style>
-    <Format>image/png</Format>
-    <TileMatrixSetLink>
-      <TileMatrixSet>z2to18</TileMatrixSet>
-    </TileMatrixSetLink>
-    <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol09/{TileMatrix}/{TileCol}/{TileRow}.png" />
-  </Layer>
-  <Layer>
-    <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_竹田地区正射画像（4/20撮影）</ows:Title>
-    <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol10</ows:Identifier>
-    <Style isDefault="true">
-      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
-    </Style>
-    <Format>image/png</Format>
-    <TileMatrixSetLink>
-      <TileMatrixSet>z2to18</TileMatrixSet>
-    </TileMatrixSetLink>
-    <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol10/{TileMatrix}/{TileCol}/{TileRow}.png" />
-  </Layer>
-  <Layer>
-    <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">災害対応_地震_平成28年熊本地震_写真_正射画像_湯布院地区正射画像（4/20撮影）</ows:Title>
-    <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160414kumamoto_0420dol11</ows:Identifier>
-    <Style isDefault="true">
-      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
-    </Style>
-    <Format>image/png</Format>
-    <TileMatrixSetLink>
-      <TileMatrixSet>z2to18</TileMatrixSet>
-    </TileMatrixSetLink>
-    <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol11/{TileMatrix}/{TileCol}/{TileRow}.png" />
-  </Layer>
 </Capabilities>
