@@ -1,5 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd" version="1.0.0">
+  <ows:ServiceIdentification>
+    <ows:Title>地理院タイル（地図・空中写真）</ows:Title>
+    <ows:Abstract>国土地理院が公開している地理院タイル（http://maps.gsi.go.jp/development/ichiran.html）のうち、地図・空中写真のタイルを参照する WMTS サーバーです。</ows:Abstract>
+    <ows:Keywords>
+      <ows:Keyword>gsi</ows:Keyword>
+      <ows:Keyword>WMTS</ows:Keyword>
+      <ows:Keyword>Japan</ows:Keyword>
+    </ows:Keywords>
+    <ows:ServiceType>OGC WMTS</ows:ServiceType>
+    <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
+    <ows:Fees>none</ows:Fees>
+    <ows:AccessConstraints>地理院タイルは、国土地理院コンテンツ利用規約（http://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html）に従って利用できます。
+ご利用にあたっては、「地理院タイルのご利用について（http://maps.gsi.go.jp/help/use.html）」をご覧ください。</ows:AccessConstraints>
+  </ows:ServiceIdentification>
+  <ows:ServiceProvider>
+    <ows:ProviderName>ESRIジャパン株式会社（Esri Japan）</ows:ProviderName>
+    <ows:ProviderSite xlink:href="/http://www.esrij.com/" xmlns:xlink="http://www.w3.org/1999/xlink" />
+    <ows:ServiceContact>
+      <ows:IndividualName>ESRIジャパン株式会社（Esri Japan）</ows:IndividualName>
+      <ows:PositionName>ESRIジャパン株式会社（Esri Japan）</ows:PositionName>
+      <ows:ContactInfo>
+        <ows:Address>
+          <ows:DeliveryPoint>平河町2-7-1 (2-7-1 Hirakawa-cho)</ows:DeliveryPoint>
+          <ows:City>千代田区 (Chiyoda-ku)</ows:City>
+          <ows:AdministrativeArea>東京都 (Tokyo)</ows:AdministrativeArea>
+          <ows:PostalCode>102-0093 (1020093)</ows:PostalCode>
+          <ows:Country>日本 (Japan)</ows:Country>
+          <ows:ElectronicMailAddress></ows:ElectronicMailAddress>
+        </ows:Address>
+      </ows:ContactInfo>
+    </ows:ServiceContact>
+  </ows:ServiceProvider>
+  <ows:OperationsMetadata>
+    <ows:Operation name="GetCapabilities">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="http://esrijapan.github.io/gsi-wmts/chizu_shashin.xml" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <ows:Constraint name="GetEncoding">
+              <ows:AllowedValues>
+                <ows:Value>RESTful</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Get>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+    <ows:Operation name="GetTile">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="http://esrijapan.github.io/gsi-wmts/chizu_shashin.xml" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <ows:Constraint name="GetEncoding">
+              <ows:AllowedValues>
+                <ows:Value>RESTful</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Get>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+  </ows:OperationsMetadata>
+  <ServiceMetadataURL xlink:href="http://esrijapan.github.io/gsi-wmts/chizu_shashin.xml" />
   <Contents>
     <Layer>
       <ows:Title>標準地図</ows:Title>
