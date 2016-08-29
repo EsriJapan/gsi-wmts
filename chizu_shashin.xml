@@ -339,5 +339,101 @@
         <MatrixHeight>262144</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
+    <Layer>
+      <ows:Title>主題図_土地条件図_初期整備版</ows:Title>
+      <ows:Identifier>lcm25k</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/lcm25k/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>主題図_沿岸海域土地条件図_平成元年以降</ows:Title>
+      <ows:Identifier>ccm1</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/ccm1/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>主題図_沿岸海域土地条件図_昭和63年以前</ows:Title>
+      <ows:Identifier>ccm2</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/ccm2/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>主題図_火山基本図</ows:Title>
+      <ows:Identifier>vbm</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/vbm/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>主題図_火山土地条件図</ows:Title>
+      <ows:Identifier>vlcd</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/vlcd/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>主題図_20万分１土地利用図（1982～1983年）</ows:Title>
+      <ows:Identifier>lum200k</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/lum200k/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>主題図_湖沼図_平成2年以前</ows:Title>
+      <ows:Identifier>lake1</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/lake1/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>主題図_湖沼図_平成3年以降</ows:Title>
+      <ows:Identifier>lake2</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/lake2/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
   </Contents>
 </Capabilities>
