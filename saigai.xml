@@ -63,6 +63,54 @@
   <ServiceMetadataURL xlink:href="http://esrijapan.github.io/gsi-wmts/saigai.xml" />
   <Contents>
     <Layer>
+      <ows:Title>平成28年台風第10号_小本川（岩手県岩泉町）_鼠入地区正射画像（9/7撮影）</ows:Title>
+      <ows:Identifier>20160830typhoon10_0907dol3</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160830typhoon10_0907dol3/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>平成28年台風第10号_小本川（岩手県岩泉町）_穴沢地区正射画像（9/7撮影）</ows:Title>
+      <ows:Identifier>20160830typhoon10_0907dol2</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160830typhoon10_0907dol2/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>平成28年台風第10号_安家川（岩手県岩泉町）_安家地区正射画像（9/7撮影）</ows:Title>
+      <ows:Identifier>20160830typhoon10_0907dol1</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160830typhoon10_0907dol1/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title xmlns:ows="http://www.opengis.net/ows/1.1">平成28年台風第11号及び第9号 常呂川周辺 正射画像（2016年8月25日撮影）</ows:Title>
+      <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">20160820typhoon11_9_0825dol</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier xmlns:ows="http://www.opengis.net/ows/1.1">default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/20160820typhoon11_9_0825dol/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
       <ows:Title>災害対応_地震_平成28年熊本地震_写真_正射画像_熊本2地区正射画像（7/5～24撮影）</ows:Title>
       <ows:Identifier>20160414kumamoto_0724dol</ows:Identifier>
       <Style isDefault="true">
