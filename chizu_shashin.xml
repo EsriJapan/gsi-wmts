@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd" version="1.0.0">
+<Capabilities xmlns="https://www.opengis.net/wmts/1.0" xmlns:ows="https://www.opengis.net/ows/1.1" xmlns:xlink="https://www.w3.org/1999/xlink" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:gml="https://www.opengis.net/gml" xsi:schemaLocation="https://www.opengis.net/wmts/1.0 https://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd" version="1.0.0">
   <ows:ServiceIdentification>
     <ows:Title>地理院タイル（地図・空中写真）</ows:Title>
-    <ows:Abstract>国土地理院が公開している地理院タイル（http://maps.gsi.go.jp/development/ichiran.html）のうち、地図・空中写真のタイルを参照する WMTS サーバーです。</ows:Abstract>
+    <ows:Abstract>国土地理院が公開している地理院タイル（https://maps.gsi.go.jp/development/ichiran.html）のうち、地図・空中写真のタイルを参照する WMTS サーバーです。</ows:Abstract>
     <ows:Keywords>
       <ows:Keyword>gsi</ows:Keyword>
       <ows:Keyword>WMTS</ows:Keyword>
@@ -11,8 +11,8 @@
     <ows:ServiceType>OGC WMTS</ows:ServiceType>
     <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
     <ows:Fees>none</ows:Fees>
-    <ows:AccessConstraints>地理院タイルは、国土地理院コンテンツ利用規約（http://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html）に従って利用できます。
-ご利用にあたっては、「地理院タイルのご利用について（http://maps.gsi.go.jp/help/use.html）」をご覧ください。</ows:AccessConstraints>
+    <ows:AccessConstraints>地理院タイルは、国土地理院コンテンツ利用規約（https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html）に従って利用できます。
+ご利用にあたっては、「地理院タイルのご利用について（https://maps.gsi.go.jp/help/use.html）」をご覧ください。</ows:AccessConstraints>
   </ows:ServiceIdentification>
   <ows:ServiceProvider>
     <ows:ProviderName>ESRIジャパン株式会社（Esri Japan）</ows:ProviderName>
@@ -27,7 +27,7 @@
           <ows:AdministrativeArea>東京都 (Tokyo)</ows:AdministrativeArea>
           <ows:PostalCode>102-0093 (1020093)</ows:PostalCode>
           <ows:Country>日本 (Japan)</ows:Country>
-          <ows:ElectronicMailAddress></ows:ElectronicMailAddress>
+          <ows:ElectronicMailAddress />
         </ows:Address>
       </ows:ContactInfo>
     </ows:ServiceContact>
@@ -36,7 +36,7 @@
     <ows:Operation name="GetCapabilities">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="http://esrijapan.github.io/gsi-wmts/chizu_shashin.xml" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/chizu_shashin.xml" xmlns:xlink="http://www.w3.org/1999/xlink">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>RESTful</ows:Value>
@@ -49,7 +49,7 @@
     <ows:Operation name="GetTile">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="http://esrijapan.github.io/gsi-wmts/chizu_shashin.xml" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/chizu_shashin.xml" xmlns:xlink="http://www.w3.org/1999/xlink">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>RESTful</ows:Value>
@@ -60,7 +60,7 @@
       </ows:DCP>
     </ows:Operation>
   </ows:OperationsMetadata>
-  <ServiceMetadataURL xlink:href="http://esrijapan.github.io/gsi-wmts/chizu_shashin.xml" />
+  <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/chizu_shashin_test.xml" />
   <Contents>
     <Layer>
       <ows:Title>標準地図</ows:Title>
@@ -72,7 +72,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/std/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/std/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>淡色地図</ows:Title>
@@ -84,7 +84,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/pale/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/pale/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>白地図</ows:Title>
@@ -96,7 +96,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/blank/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/blank/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>English</ows:Title>
@@ -108,7 +108,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/english/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/english/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>地図・空中写真_色別標高図</ows:Title>
@@ -120,7 +120,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/relief/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/relief/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>地図・空中写真_土地条件図_数値地図25000(土地条件)</ows:Title>
@@ -132,7 +132,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/lcm25k_2012/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/lcm25k_2012/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>地図・空中写真_写真_最新（2007年～）</ows:Title>
@@ -144,7 +144,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/ort/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+      <ResourceURL format="image/jpg" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/ort/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
     <Layer>
       <ows:Title>地図・空中写真_写真_1961年～1964年</ows:Title>
@@ -156,7 +156,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/ort_old10/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/ort_old10/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>地図・空中写真_写真_1945年～1950年</ows:Title>
@@ -168,7 +168,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/ort_USA10/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>地図・空中写真_簡易空中写真（2004年～）</ows:Title>
@@ -180,7 +180,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/airphoto/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/airphoto/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <TileMatrixSet>
       <ows:Identifier>z2to18</ows:Identifier>
@@ -349,7 +349,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/lcm25k/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/lcm25k/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>主題図_沿岸海域土地条件図_平成元年以降</ows:Title>
@@ -361,7 +361,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/ccm1/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/ccm1/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>主題図_沿岸海域土地条件図_昭和63年以前</ows:Title>
@@ -373,7 +373,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/ccm2/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/ccm2/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>主題図_火山基本図</ows:Title>
@@ -385,7 +385,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/vbm/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/vbm/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>主題図_火山土地条件図</ows:Title>
@@ -397,7 +397,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/vlcd/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/vlcd/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>主題図_20万分１土地利用図（1982～1983年）</ows:Title>
@@ -409,7 +409,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/lum200k/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/lum200k/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>主題図_湖沼図_平成2年以前</ows:Title>
@@ -421,7 +421,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/lake1/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/lake1/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>主題図_湖沼図_平成3年以降</ows:Title>
@@ -433,7 +433,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://cyberjapandata.gsi.go.jp/xyz/lake2/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/lake2/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
   </Contents>
 </Capabilities>
