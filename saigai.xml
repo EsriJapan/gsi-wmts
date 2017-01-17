@@ -1118,6 +1118,18 @@
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/20131204doh/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
+    <Layer>
+      <ows:Title>平成28年茨城県北部の地震_正射画像（12/29撮影）</ows:Title>
+      <ows:Identifier>20161228ibaraki_1229dol</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/20161228ibaraki_1229dol/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
     <TileMatrixSet>
       <ows:Identifier>z2to18</ows:Identifier>
       <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18:3:3857</ows:SupportedCRS>
