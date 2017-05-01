@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Capabilities version="1.0.0" xmlns="https://www.opengis.net/wmts/1.0" xmlns:ows="https://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.opengis.net/wmts/1.0 https://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
+  
+  
+  <ows:ServiceIdentification>
+    
+    
+    <ows:Title>layers_20160830typhoon10</ows:Title>
+    
+    
+    <ows:Abstract>国土地理院が公開している地理院タイル（https://maps.gsi.go.jp/development/ichiran.html）のうち、地図・空中写真のタイルを参照する WMTS サーバーです。</ows:Abstract>
+    
+    
+    <ows:Keywords>
+      
+      
+      <ows:Keyword>gsi</ows:Keyword>
+      
+      
+      <ows:Keyword>WMTS</ows:Keyword>
+      
+      
+      <ows:Keyword>Japan</ows:Keyword>
+      
+    
+    </ows:Keywords>
+    
+    
+    <ows:ServiceType>OGC WMTS</ows:ServiceType>
+    
+    
+    <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
+    
+    
+    <ows:Fees>none</ows:Fees>
+    
+    
+    <ows:AccessConstraints>地理院タイルは、国土地理院コンテンツ利用規約（https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html）に従って利用できます。
+ご利用にあたっては、「地理院タイルのご利用について（https://maps.gsi.go.jp/help/use.html）」をご覧ください。</ows:AccessConstraints>
+    
+  
+  </ows:ServiceIdentification>
+  
+  
+  <ows:ServiceProvider xmlns="http://www.w3.org/1999/xlink">
+    
+    
+    <ows:ProviderName>ESRIジャパン株式会社（Esri Japan）</ows:ProviderName>
+    
+    
+    <ows:ProviderSite xlink:href="/http://www.esrij.com/"/>
+    
+    
+    <ows:ServiceContact>
+      
+      
+      <ows:IndividualName>ESRIジャパン株式会社（Esri Japan）</ows:IndividualName>
+      
+      
+      <ows:PositionName>ESRIジャパン株式会社（Esri Japan）</ows:PositionName>
+      
+      
+      <ows:ContactInfo>
+        
+        
+        <ows:Address>
+          
+          
+          <ows:DeliveryPoint>平河町2-7-1 (2-7-1 Hirakawa-cho)</ows:DeliveryPoint>
+          
+          
+          <ows:City>千代田区 (Chiyoda-ku)</ows:City>
+          
+          
+          <ows:AdministrativeArea>東京都 (Tokyo)</ows:AdministrativeArea>
+          
+          
+          <ows:PostalCode>102-0093 (1020093)</ows:PostalCode>
+          
+          
+          <ows:Country>日本 (Japan)</ows:Country>
+          
+          
+          <ows:ElectronicMailAddress/>
+          
+        
+        </ows:Address>
+        
+      
+      </ows:ContactInfo>
+      
+    
+    </ows:ServiceContact>
+    
+  
+  </ows:ServiceProvider>
+  
+  
+  <ows:OperationsMetadata>
+    
+    
+    <ows:Operation name="GetCapabilities">
+      
+      
+      <ows:DCP>
+        
+        
+        <ows:HTTP>
+          
+          
+          <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20160830typhoon10.xml" xmlns="http://www.w3.org/1999/xlink">
+            
+            
+            <ows:Constraint name="GetEncoding">
+              
+              
+              <ows:AllowedValues>
+                
+                
+                <ows:Value>RESTful</ows:Value>
+                
+              
+              </ows:AllowedValues>
+              
+            
+            </ows:Constraint>
+            
+          
+          </ows:Get>
+          
+        
+        </ows:HTTP>
+        
+      
+      </ows:DCP>
+      
+    
+    </ows:Operation>
+    
+    
+    <ows:Operation name="GetTile">
+      
+      
+      <ows:DCP>
+        
+        
+        <ows:HTTP>
+          
+          
+          <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20160830typhoon10.xml" xmlns="http://www.w3.org/1999/xlink">
+            
+            
+            <ows:Constraint name="GetEncoding">
+              
+              
+              <ows:AllowedValues>
+                
+                
+                <ows:Value>RESTful</ows:Value>
+                
+              
+              </ows:AllowedValues>
+              
+            
+            </ows:Constraint>
+            
+          
+          </ows:Get>
+          
+        
+        </ows:HTTP>
+        
+      
+      </ows:DCP>
+      
+    
+    </ows:Operation>
+    
+  
+  </ows:OperationsMetadata>
+  
+  
+  <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20160830typhoon10.xml"/>
+  
+  
+  <Contents>
+    
+    
+    <TileMatrixSet>
+      
+      
+      <ows:Identifier>z2to18</ows:Identifier>
+      
+      
+      <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18:3:3857</ows:SupportedCRS>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>2</ows:Identifier>
+        
+        
+        <ScaleDenominator>139770566.0071794</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>4</MatrixWidth>
+        
+        
+        <MatrixHeight>4</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>3</ows:Identifier>
+        
+        
+        <ScaleDenominator>69885283.00358972</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>8</MatrixWidth>
+        
+        
+        <MatrixHeight>8</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>4</ows:Identifier>
+        
+        
+        <ScaleDenominator>34942641.50179486</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>16</MatrixWidth>
+        
+        
+        <MatrixHeight>16</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>5</ows:Identifier>
+        
+        
+        <ScaleDenominator>17471320.75089743</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>32</MatrixWidth>
+        
+        
+        <MatrixHeight>32</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>6</ows:Identifier>
+        
+        
+        <ScaleDenominator>8735660.375448715</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>64</MatrixWidth>
+        
+        
+        <MatrixHeight>64</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>7</ows:Identifier>
+        
+        
+        <ScaleDenominator>4367830.187724357</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>128</MatrixWidth>
+        
+        
+        <MatrixHeight>128</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>8</ows:Identifier>
+        
+        
+        <ScaleDenominator>2183915.093862179</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>256</MatrixWidth>
+        
+        
+        <MatrixHeight>256</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>9</ows:Identifier>
+        
+        
+        <ScaleDenominator>1091957.546931089</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>512</MatrixWidth>
+        
+        
+        <MatrixHeight>512</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>10</ows:Identifier>
+        
+        
+        <ScaleDenominator>545978.7734655447</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>1024</MatrixWidth>
+        
+        
+        <MatrixHeight>1024</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>11</ows:Identifier>
+        
+        
+        <ScaleDenominator>272989.3867327723</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>2048</MatrixWidth>
+        
+        
+        <MatrixHeight>2048</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>12</ows:Identifier>
+        
+        
+        <ScaleDenominator>136494.6933663862</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>4096</MatrixWidth>
+        
+        
+        <MatrixHeight>4096</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>13</ows:Identifier>
+        
+        
+        <ScaleDenominator>68247.34668319309</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>8192</MatrixWidth>
+        
+        
+        <MatrixHeight>8192</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>14</ows:Identifier>
+        
+        
+        <ScaleDenominator>34123.67334159654</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>16384</MatrixWidth>
+        
+        
+        <MatrixHeight>16384</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>15</ows:Identifier>
+        
+        
+        <ScaleDenominator>17061.83667079827</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>32768</MatrixWidth>
+        
+        
+        <MatrixHeight>32768</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>16</ows:Identifier>
+        
+        
+        <ScaleDenominator>8530.918335399136</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>65536</MatrixWidth>
+        
+        
+        <MatrixHeight>65536</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>17</ows:Identifier>
+        
+        
+        <ScaleDenominator>4265.459167699568</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>131072</MatrixWidth>
+        
+        
+        <MatrixHeight>131072</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+      
+      <TileMatrix>
+        
+        
+        <ows:Identifier>18</ows:Identifier>
+        
+        
+        <ScaleDenominator>2132.729583849784</ScaleDenominator>
+        
+        
+        <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+        
+        
+        <TileWidth>256</TileWidth>
+        
+        
+        <TileHeight>256</TileHeight>
+        
+        
+        <MatrixWidth>262144</MatrixWidth>
+        
+        
+        <MatrixHeight>262144</MatrixHeight>
+        
+      
+      </TileMatrix>
+      
+    
+    </TileMatrixSet>
+    
+    
+    <Layer>
+      <ows:Title>安家川（岩手県岩泉町）_安家地区正射画像（9/7撮影）</ows:Title>
+      <ows:Identifier>20160830typhoon10_0907dol1</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>141.328125 39.6395375644</ows:LowerCorner>
+        <ows:UpperCorner>142.03125 40.1788733143</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160830typhoon10_0907dol1/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>小本川（岩手県岩泉町）_穴沢地区正射画像（10/7撮影）</ows:Title>
+      <ows:Identifier>20160830typhoon10_1007dol1</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>141.328125 39.6395375644</ows:LowerCorner>
+        <ows:UpperCorner>142.03125 40.1788733143</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160830typhoon10_1007dol1/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>小本川（岩手県岩泉町）_鼠入地区正射画像（10/7撮影）</ows:Title>
+      <ows:Identifier>20160830typhoon10_1007dol2</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>141.328125 39.6395375644</ows:LowerCorner>
+        <ows:UpperCorner>142.03125 39.9097362345</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160830typhoon10_1007dol2/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>小本川（岩手県岩泉町）_穴沢地区正射画像（9/7撮影）</ows:Title>
+      <ows:Identifier>20160830typhoon10_0907dol2</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>141.328125 39.6395375644</ows:LowerCorner>
+        <ows:UpperCorner>142.03125 40.1788733143</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160830typhoon10_0907dol2/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>小本川（岩手県岩泉町）_鼠入地区正射画像（9/7撮影）</ows:Title>
+      <ows:Identifier>20160830typhoon10_0907dol3</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>141.328125 39.6395375644</ows:LowerCorner>
+        <ows:UpperCorner>142.03125 39.9097362345</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160830typhoon10_0907dol3/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>北海道地区_被災前の人工衛星画像&lt;br&gt;(Landsat8)</ows:Title>
+      <ows:Identifier>20160830typhoon10_lndst_h160824</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160830typhoon10_lndst_h160824/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>東北地区_被災前の人工衛星画像&lt;br&gt;(Landsat8)</ows:Title>
+      <ows:Identifier>20160830typhoon10_lndst_t160808</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160830typhoon10_lndst_t160808/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>色別標高図</ows:Title>
+      <ows:Identifier>relief</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/relief/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>治水地形分類図_更新版(2007～2014年)</ows:Title>
+      <ows:Identifier>lcmfc2</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>123.75 21.9430455334</ows:LowerCorner>
+        <ows:UpperCorner>146.25 48.9224992638</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/lcmfc2/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>治水地形分類図_初版(1976～1978年)</ows:Title>
+      <ows:Identifier>lcmfc1</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/lcmfc1/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+  </Contents>
+  
+
+</Capabilities>
