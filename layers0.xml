@@ -8,7 +8,7 @@
     <ows:Title>layers0</ows:Title>
     
     
-    <ows:Abstract>国土地理院が公開している地理院タイル（https://maps.gsi.go.jp/development/ichiran.html）のうち、地図・空中写真のタイルを参照する WMTS サーバーです。</ows:Abstract>
+    <ows:Abstract>地理院地図の layers.txt に含まれるレイヤーのうち、WMTS で配信可能なレイヤーのみを取得したメタデータです。</ows:Abstract>
     
     
     <ows:Keywords>

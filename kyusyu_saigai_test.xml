@@ -191,14 +191,14 @@
       <ResourceURL format="image/png" resourceType="tile" template="http://maps.gsi.go.jp/xyz/20170705typhoon3_0708dol3/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
-      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">朝倉市杷木志波平榎地区【7月8日撮影】</ows:Title>
-      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">20170705typhoon3_0708dol4</ows:Identifier>
+      <ows:Title>朝倉市杷木志波平榎地区【7月8日撮影】</ows:Title>
+      <ows:Identifier>20170705typhoon3_0708dol4</ows:Identifier>
       <Style isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Style>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>130.721869 33.356788</ows:LowerCorner>
-        <ows:UpperCorner>130.875599 33.446692</ows:UpperCorner>
+        <ows:LowerCorner>130.721869  33.356788</ows:LowerCorner>
+        <ows:UpperCorner>130.875599  33.446692</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <Format>image/png</Format>
       <TileMatrixSetLink>

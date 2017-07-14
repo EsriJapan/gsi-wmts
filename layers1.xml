@@ -8,7 +8,7 @@
     <ows:Title>layers1</ows:Title>
     
     
-    <ows:Abstract>国土地理院が公開している地理院タイル（https://maps.gsi.go.jp/development/ichiran.html）のうち、地図・空中写真のタイルを参照する WMTS サーバーです。</ows:Abstract>
+    <ows:Abstract>地理院地図の layers.txt に含まれるレイヤーのうち、WMTS で配信可能なレイヤーのみを取得したメタデータです。</ows:Abstract>
     
     
     <ows:Keywords>
@@ -658,7 +658,7 @@
     
     
     <Layer>
-      <ows:Title>空中写真・衛星画像_シームレス空中写真</ows:Title>
+      <ows:Title>空中写真・衛星画像_全国最新写真（シームレス）</ows:Title>
       <ows:Identifier>seamlessphoto</ows:Identifier>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>120 20</ows:LowerCorner>
@@ -674,7 +674,7 @@
       <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
     </Layer>
     <Layer>
-      <ows:Title>空中写真・衛星画像_最新（2007年～）</ows:Title>
+      <ows:Title>空中写真・衛星画像_2007年～</ows:Title>
       <ows:Identifier>ort</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
@@ -686,7 +686,7 @@
       <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/ort/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
     </Layer>
     <Layer>
-      <ows:Title>空中写真・衛星画像_簡易空中写真（2004年～）</ows:Title>
+      <ows:Title>空中写真・衛星画像_2004年～（簡易空中写真）</ows:Title>
       <ows:Identifier>airphoto</ows:Identifier>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>120 20</ows:LowerCorner>
@@ -796,6 +796,22 @@
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/ort_USA10/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>空中写真・衛星画像_1936年頃</ows:Title>
+      <ows:Identifier>ort_riku10</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/ort_riku10/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
     <Layer>
       <ows:Title>空中写真・衛星画像_全国ランドサットモザイク画像</ows:Title>

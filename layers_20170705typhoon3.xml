@@ -5,7 +5,7 @@
   <ows:ServiceIdentification>
     
     
-    <ows:Title>layers_20161021tottori</ows:Title>
+    <ows:Title>layers_20170705typhoon3</ows:Title>
     
     
     <ows:Abstract>地理院地図の layers.txt に含まれるレイヤーのうち、WMTS で配信可能なレイヤーのみを取得したメタデータです。</ows:Abstract>
@@ -108,7 +108,7 @@
         <ows:HTTP>
           
           
-          <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20161021tottori.xml" xmlns="http://www.w3.org/1999/xlink">
+          <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20170705typhoon3.xml" xmlns="http://www.w3.org/1999/xlink">
             
             
             <ows:Constraint name="GetEncoding">
@@ -147,7 +147,7 @@
         <ows:HTTP>
           
           
-          <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20161021tottori.xml" xmlns="http://www.w3.org/1999/xlink">
+          <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20170705typhoon3.xml" xmlns="http://www.w3.org/1999/xlink">
             
             
             <ows:Constraint name="GetEncoding">
@@ -180,7 +180,7 @@
   </ows:OperationsMetadata>
   
   
-  <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20161021tottori.xml"/>
+  <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20170705typhoon3.xml"/>
   
   
   <Contents>
@@ -658,11 +658,11 @@
     
     
     <Layer>
-      <ows:Title>正射画像（10/22撮影）</ows:Title>
-      <ows:Identifier>20161021tottori_1022dol</ows:Identifier>
+      <ows:Title>正射画像_ヘリ撮影画像から作成（7/10撮影）</ows:Title>
+      <ows:Identifier>20170705typhoon3_0710dol</ows:Identifier>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>133.59375 35.173808318</ows:LowerCorner>
-        <ows:UpperCorner>134.296875 35.7465122599</ows:UpperCorner>
+        <ows:LowerCorner>130.78125 33.1375511923</ows:LowerCorner>
+        <ows:UpperCorner>131.1328125 33.7243396617</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
@@ -671,7 +671,103 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20161021tottori_1022dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0710dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>正射画像_ヘリ撮影画像から作成（7/8撮影）</ows:Title>
+      <ows:Identifier>20170705typhoon3_0708dol1</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>
+        <ows:UpperCorner>131.1328125 33.7243396617</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0708dol1/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>正射画像_UAV撮影画像から作成（7/7撮影）</ows:Title>
+      <ows:Identifier>20170705typhoon3_0707dol3</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>
+        <ows:UpperCorner>130.78125 33.4314413356</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0707dol3/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>正射画像_ヘリ撮影画像から作成（7/7撮影）</ows:Title>
+      <ows:Identifier>20170705typhoon3_0707dol</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>
+        <ows:UpperCorner>131.1328125 33.4314413356</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0707dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>全国最新写真（シームレス）</ows:Title>
+      <ows:Identifier>seamlessphoto</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
+    </Layer>
+    <Layer>
+      <ows:Title>治水地形分類図_更新版(2007～2014年)</ows:Title>
+      <ows:Identifier>lcmfc2</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>123.75 21.9430455334</ows:LowerCorner>
+        <ows:UpperCorner>146.25 48.9224992638</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/lcmfc2/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>治水地形分類図_初版(1976～1978年)</ows:Title>
+      <ows:Identifier>lcmfc1</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/lcmfc1/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
   </Contents>
   

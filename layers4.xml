@@ -8,7 +8,7 @@
     <ows:Title>layers4</ows:Title>
     
     
-    <ows:Abstract>国土地理院が公開している地理院タイル（https://maps.gsi.go.jp/development/ichiran.html）のうち、地図・空中写真のタイルを参照する WMTS サーバーです。</ows:Abstract>
+    <ows:Abstract>地理院地図の layers.txt に含まれるレイヤーのうち、WMTS で配信可能なレイヤーのみを取得したメタデータです。</ows:Abstract>
     
     
     <ows:Keywords>
@@ -1602,6 +1602,22 @@
       <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/airphoto/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
     <Layer>
+      <ows:Title>地震、台風・豪雨等、火山_火山_西之島付近_正射画像_2016/12/20</ows:Title>
+      <ows:Identifier>20161220dol</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20161220dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
       <ows:Title>地震、台風・豪雨等、火山_火山_西之島付近_正射画像_2016/7/25（無人航空機（UAV）撮影）</ows:Title>
       <ows:Identifier>20160725dol</ows:Identifier>
       <ows:WGS84BoundingBox>
@@ -1936,6 +1952,70 @@
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20131204doh2/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>地震、台風・豪雨等、火山_火山_西之島付近_衛星画像_2017/6/26</ows:Title>
+      <ows:Identifier>20170626lsi</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>140.80078125 20</ows:LowerCorner>
+        <ows:UpperCorner>140.932617188 27.2936892249</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170626lsi/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>地震、台風・豪雨等、火山_火山_西之島付近_衛星画像_2017/6/10</ows:Title>
+      <ows:Identifier>20170610lsi</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>140.80078125 27.215556209</ows:LowerCorner>
+        <ows:UpperCorner>140.932617188 27.2936892249</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170610lsi/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>地震、台風・豪雨等、火山_火山_西之島付近_衛星画像_2017/5/25</ows:Title>
+      <ows:Identifier>20170525lsi</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>140.80078125 27.215556209</ows:LowerCorner>
+        <ows:UpperCorner>140.932617188 27.2936892249</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170525lsi/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>地震、台風・豪雨等、火山_火山_西之島付近_衛星画像_2017/5/9</ows:Title>
+      <ows:Identifier>20170509lsi</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>140.80078125 27.215556209</ows:LowerCorner>
+        <ows:UpperCorner>140.932617188 27.2936892249</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170509lsi/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
     <Layer>
       <ows:Title>地震、台風・豪雨等、火山_火山_西之島付近_衛星画像_2016/6/23</ows:Title>

@@ -8,7 +8,7 @@
     <ows:Title>layers2</ows:Title>
     
     
-    <ows:Abstract>国土地理院が公開している地理院タイル（https://maps.gsi.go.jp/development/ichiran.html）のうち、地図・空中写真のタイルを参照する WMTS サーバーです。</ows:Abstract>
+    <ows:Abstract>地理院地図の layers.txt に含まれるレイヤーのうち、WMTS で配信可能なレイヤーのみを取得したメタデータです。</ows:Abstract>
     
     
     <ows:Keywords>
@@ -802,7 +802,55 @@
       <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/swale/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
     <Layer>
-      <ows:Title>主題図_火山基本図・火山基本図データ</ows:Title>
+      <ows:Title>主題図_火山基本図・火山基本図データ_火山基本図データ（基図）</ows:Title>
+      <ows:Identifier>vbmd_bm</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_bm/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>主題図_火山基本図・火山基本図データ_火山基本図データ（陰影段彩図）</ows:Title>
+      <ows:Identifier>vbmd_colorrel</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_colorrel/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>主題図_火山基本図・火山基本図データ_火山基本図データ（写真地図）</ows:Title>
+      <ows:Identifier>vbmd_pm</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_pm/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>主題図_火山基本図・火山基本図データ_火山基本図</ows:Title>
       <ows:Identifier>vbm</ows:Identifier>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>120 20</ows:LowerCorner>
@@ -3032,6 +3080,22 @@
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/fgd_dem10a_area/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>主題図_更新情報_基盤地図情報基本項目_2017年更新情報_4月更新</ows:Title>
+      <ows:Identifier>fgd_update_2017_04</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 21.9430455334</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/fgd_update_2017_04/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
     <Layer>
       <ows:Title>主題図_更新情報_基盤地図情報基本項目_2017年更新情報_1月更新</ows:Title>
