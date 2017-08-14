@@ -5,7 +5,7 @@
   <ows:ServiceIdentification>
     
     
-    <ows:Title>layers1</ows:Title>
+    <ows:Title>layers_20170722akita</ows:Title>
     
     
     <ows:Abstract>地理院地図の layers.txt に含まれるレイヤーのうち、WMTS で配信可能なレイヤーのみを取得したメタデータです。</ows:Abstract>
@@ -108,7 +108,7 @@
         <ows:HTTP>
           
           
-          <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers1.xml" xmlns="http://www.w3.org/1999/xlink">
+          <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20170722akita.xml" xmlns="http://www.w3.org/1999/xlink">
             
             
             <ows:Constraint name="GetEncoding">
@@ -147,7 +147,7 @@
         <ows:HTTP>
           
           
-          <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers1.xml" xmlns="http://www.w3.org/1999/xlink">
+          <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20170722akita.xml" xmlns="http://www.w3.org/1999/xlink">
             
             
             <ows:Constraint name="GetEncoding">
@@ -180,7 +180,7 @@
   </ows:OperationsMetadata>
   
   
-  <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/layers1.xml"/>
+  <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20170722akita.xml"/>
   
   
   <Contents>
@@ -658,7 +658,7 @@
     
     
     <Layer>
-      <ows:Title>空中写真・衛星画像_全国最新写真（シームレス）</ows:Title>
+      <ows:Title>全国最新写真（シームレス）</ows:Title>
       <ows:Identifier>seamlessphoto</ows:Identifier>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>120 20</ows:LowerCorner>
@@ -674,20 +674,8 @@
       <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
     </Layer>
     <Layer>
-      <ows:Title>空中写真・衛星画像_2007年～</ows:Title>
-      <ows:Identifier>ort</ows:Identifier>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/ort/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
-    </Layer>
-    <Layer>
-      <ows:Title>空中写真・衛星画像_2004年～（簡易空中写真）</ows:Title>
-      <ows:Identifier>airphoto</ows:Identifier>
+      <ows:Title>デジタル標高地形図&lt;br&gt;【雄物川周辺】</ows:Title>
+      <ows:Identifier>20170722akita_digiele</ows:Identifier>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>120 20</ows:LowerCorner>
         <ows:UpperCorner>154 50</ows:UpperCorner>
@@ -699,14 +687,14 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/airphoto/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170722akita_digiele/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
     <Layer>
-      <ows:Title>空中写真・衛星画像_1988年～1990年</ows:Title>
-      <ows:Identifier>gazo4</ows:Identifier>
+      <ows:Title>治水地形分類図_更新版(2007～2014年)</ows:Title>
+      <ows:Identifier>lcmfc2</ows:Identifier>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>130.078125 33.1375511923</ows:LowerCorner>
-        <ows:UpperCorner>140.625 36.3151251475</ows:UpperCorner>
+        <ows:LowerCorner>123.75 21.9430455334</ows:LowerCorner>
+        <ows:UpperCorner>146.25 48.9224992638</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
@@ -715,59 +703,11 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/gazo4/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/lcmfc2/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
     <Layer>
-      <ows:Title>空中写真・衛星画像_1984年～1987年</ows:Title>
-      <ows:Identifier>gazo3</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>134.6484375 34.0162418897</ows:LowerCorner>
-        <ows:UpperCorner>142.03125 43.32517768</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/gazo3/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
-    </Layer>
-    <Layer>
-      <ows:Title>空中写真・衛星画像_1979年～1983年</ows:Title>
-      <ows:Identifier>gazo2</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>129.7265625 32.842673632</ows:LowerCorner>
-        <ows:UpperCorner>140.9765625 36.879620605</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/gazo2/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
-    </Layer>
-    <Layer>
-      <ows:Title>空中写真・衛星画像_1974年～1978年</ows:Title>
-      <ows:Identifier>gazo1</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>122.6953125 23.8858376999</ows:LowerCorner>
-        <ows:UpperCorner>145.8984375 45.583289756</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/gazo1/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
-    </Layer>
-    <Layer>
-      <ows:Title>空中写真・衛星画像_1961年～1964年</ows:Title>
-      <ows:Identifier>ort_old10</ows:Identifier>
+      <ows:Title>治水地形分類図_初版(1976～1978年)</ows:Title>
+      <ows:Identifier>lcmfc1</ows:Identifier>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>120 20</ows:LowerCorner>
         <ows:UpperCorner>154 50</ows:UpperCorner>
@@ -779,127 +719,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/ort_old10/{TileMatrix}/{TileCol}/{TileRow}.png"/>
-    </Layer>
-    <Layer>
-      <ows:Title>空中写真・衛星画像_1945年～1950年</ows:Title>
-      <ows:Identifier>ort_USA10</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>120 20</ows:LowerCorner>
-        <ows:UpperCorner>154 50</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/ort_USA10/{TileMatrix}/{TileCol}/{TileRow}.png"/>
-    </Layer>
-    <Layer>
-      <ows:Title>空中写真・衛星画像_1936年頃</ows:Title>
-      <ows:Identifier>ort_riku10</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>120 20</ows:LowerCorner>
-        <ows:UpperCorner>154 50</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/ort_riku10/{TileMatrix}/{TileCol}/{TileRow}.png"/>
-    </Layer>
-    <Layer>
-      <ows:Title>空中写真・衛星画像_東日本大震災後正射画像_2013年9月～2013年12月</ows:Title>
-      <ows:Identifier>toho4</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>140.668945312 36.8444607408</ows:LowerCorner>
-        <ows:UpperCorner>142.097167969 40.4636663246</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho4/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
-    </Layer>
-    <Layer>
-      <ows:Title>空中写真・衛星画像_東日本大震災後正射画像_2012年10月～2013年5月</ows:Title>
-      <ows:Identifier>toho3</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>140.668945312 36.8444607408</ows:LowerCorner>
-        <ows:UpperCorner>142.097167969 40.6139524412</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho3/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
-    </Layer>
-    <Layer>
-      <ows:Title>空中写真・衛星画像_東日本大震災後正射画像_2011年5月～2012年4月</ows:Title>
-      <ows:Identifier>toho2</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>140.701904297 36.8444607408</ows:LowerCorner>
-        <ows:UpperCorner>142.097167969 40.6139524412</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho2/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
-    </Layer>
-    <Layer>
-      <ows:Title>空中写真・衛星画像_東日本大震災後正射画像_2011年3月～2011年4月</ows:Title>
-      <ows:Identifier>toho1</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>140.44921875 35.666222341</ows:LowerCorner>
-        <ows:UpperCorner>142.097167969 41.1372960611</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho1/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
-    </Layer>
-    <Layer>
-      <ows:Title>空中写真・衛星画像_全国ランドサットモザイク画像</ows:Title>
-      <ows:Identifier>lndst</ows:Identifier>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/lndst/{TileMatrix}/{TileCol}/{TileRow}.png"/>
-    </Layer>
-    <Layer>
-      <ows:Title>空中写真・衛星画像_世界衛星モザイク画像</ows:Title>
-      <ows:Identifier>modis</ows:Identifier>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/modis/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/lcmfc1/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
   </Contents>
   

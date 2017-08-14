@@ -3082,6 +3082,22 @@
       <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/fgd_dem10a_area/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
     <Layer>
+      <ows:Title>主題図_更新情報_基盤地図情報基本項目_2017年更新情報_7月更新</ows:Title>
+      <ows:Identifier>fgd_update_2017_07</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 21.9430455334</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/fgd_update_2017_07/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
       <ows:Title>主題図_更新情報_基盤地図情報基本項目_2017年更新情報_4月更新</ows:Title>
       <ows:Identifier>fgd_update_2017_04</ows:Identifier>
       <ows:WGS84BoundingBox>

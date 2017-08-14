@@ -658,8 +658,8 @@
     
     
     <Layer>
-      <ows:Title>正射画像_ヘリ撮影画像から作成（7/10撮影）</ows:Title>
-      <ows:Identifier>20170705typhoon3_0710dol</ows:Identifier>
+      <ows:Title>正射画像_空中写真（東峰地区）（7/30_31撮影）</ows:Title>
+      <ows:Identifier>20170705typhoon3_0802dol</ows:Identifier>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>130.78125 33.1375511923</ows:LowerCorner>
         <ows:UpperCorner>131.1328125 33.7243396617</ows:UpperCorner>
@@ -671,10 +671,58 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0710dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0802dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
     <Layer>
-      <ows:Title>正射画像_ヘリ撮影画像から作成（7/8撮影）</ows:Title>
+      <ows:Title>正射画像_統合版_空中写真（東峰地区）（7/13撮影）</ows:Title>
+      <ows:Identifier>20170705typhoon3_0713dol2</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>
+        <ows:UpperCorner>131.1328125 33.7243396617</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0713dol2/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>正射画像_統合版_空中写真（朝倉地区）（7/13撮影）</ows:Title>
+      <ows:Identifier>20170705typhoon3_0713dol1</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>
+        <ows:UpperCorner>131.1328125 33.7243396617</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0713dol1/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>正射画像_統合版_ヘリ撮影画像（7/7撮影）</ows:Title>
+      <ows:Identifier>20170705typhoon3_0707dol</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>
+        <ows:UpperCorner>131.1328125 33.4314413356</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0707dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>正射画像_統合版_ヘリ撮影画像（7/8撮影）</ows:Title>
       <ows:Identifier>20170705typhoon3_0708dol1</ows:Identifier>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>
@@ -690,7 +738,87 @@
       <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0708dol1/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
     <Layer>
-      <ows:Title>正射画像_UAV撮影画像から作成（7/7撮影）</ows:Title>
+      <ows:Title>正射画像_統合版_ヘリ撮影画像（7/10撮影）</ows:Title>
+      <ows:Identifier>20170705typhoon3_0710dol</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>130.78125 33.1375511923</ows:LowerCorner>
+        <ows:UpperCorner>131.1328125 33.7243396617</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0710dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>正射画像_空中写真（東峰地区）（7/13撮影）</ows:Title>
+      <ows:Identifier>20170705typhoon3_0713dol2</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>
+        <ows:UpperCorner>131.1328125 33.7243396617</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0713dol2/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>正射画像_空中写真（朝倉地区）（7/13撮影）</ows:Title>
+      <ows:Identifier>20170705typhoon3_0713dol1</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>
+        <ows:UpperCorner>131.1328125 33.7243396617</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0713dol1/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>正射画像_ヘリ撮影画像（7/10撮影）</ows:Title>
+      <ows:Identifier>20170705typhoon3_0710dol</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>130.78125 33.1375511923</ows:LowerCorner>
+        <ows:UpperCorner>131.1328125 33.7243396617</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0710dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>正射画像_ヘリ撮影画像（7/8撮影）</ows:Title>
+      <ows:Identifier>20170705typhoon3_0708dol1</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>
+        <ows:UpperCorner>131.1328125 33.7243396617</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0708dol1/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>正射画像_UAV撮影画像（7/7撮影）</ows:Title>
       <ows:Identifier>20170705typhoon3_0707dol3</ows:Identifier>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>
@@ -706,7 +834,7 @@
       <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0707dol3/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
     <Layer>
-      <ows:Title>正射画像_ヘリ撮影画像から作成（7/7撮影）</ows:Title>
+      <ows:Title>正射画像_ヘリ撮影画像（7/7撮影）</ows:Title>
       <ows:Identifier>20170705typhoon3_0707dol</ows:Identifier>
       <ows:WGS84BoundingBox>
         <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>
@@ -720,6 +848,22 @@
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0707dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+    <Layer>
+      <ows:Title>デジタル標高地形図&lt;br&gt;【東峰村及び久大本線橋脚流出箇所周辺】</ows:Title>
+      <ows:Identifier>20170705typhoon3_digiele</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>135.0 40.9798980696</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_digiele/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
     <Layer>
       <ows:Title>全国最新写真（シームレス）</ows:Title>
