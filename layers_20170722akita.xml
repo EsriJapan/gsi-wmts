@@ -218,5 +218,69 @@
             <MatrixHeight>262144</MatrixHeight>    
          </TileMatrix>   
       </TileMatrixSet>  
-      <Layer>   <ows:Title>全国最新写真（シームレス）</ows:Title>   <ows:Identifier>seamlessphoto</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>  </Layer>  <Layer>   <ows:Title>デジタル標高地形図&lt;br&gt;【雄物川周辺】</ows:Title>   <ows:Identifier>20170722akita_digiele</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170722akita_digiele/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>治水地形分類図_更新版(2007～2014年)</ows:Title>   <ows:Identifier>lcmfc2</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>123.75 21.9430455334</ows:LowerCorner>    <ows:UpperCorner>146.25 48.9224992638</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/lcmfc2/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>治水地形分類図_初版(1976～1978年)</ows:Title>   <ows:Identifier>lcmfc1</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/lcmfc1/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer> </Contents> 
+    <Layer>   
+     <ows:Title>全国最新写真（シームレス）</ows:Title>   
+     <ows:Identifier>seamlessphoto</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>デジタル標高地形図&lt;br&gt;【雄物川周辺】</ows:Title>   
+     <ows:Identifier>20170722akita_digiele</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170722akita_digiele/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>治水地形分類図_更新版(2007～2014年)</ows:Title>   
+     <ows:Identifier>lcmfc2</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>123.75 21.9430455334</ows:LowerCorner>    
+       <ows:UpperCorner>146.25 48.9224992638</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/lcmfc2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>治水地形分類図_初版(1976～1978年)</ows:Title>   
+     <ows:Identifier>lcmfc1</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/lcmfc1/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+ </Contents> 
 </Capabilities>

@@ -15,7 +15,7 @@
    </ows:ServiceIdentification> 
    <ows:ServiceProvider xmlns="http://www.w3.org/1999/xlink">  
       <ows:ProviderName>ESRIジャパン株式会社（Esri Japan）</ows:ProviderName>  
-      <ows:ProviderSite xlink:href="/http://www.esrij.com/"/>  
+      <ows:ProviderSite xlink:href="https://www.esrij.com/"/>  
       <ows:ServiceContact>   
          <ows:IndividualName>ESRIジャパン株式会社（Esri Japan）</ows:IndividualName>   
          <ows:PositionName>ESRIジャパン株式会社（Esri Japan）</ows:PositionName>   
@@ -218,5 +218,73 @@
             <MatrixHeight>262144</MatrixHeight>    
          </TileMatrix>   
       </TileMatrixSet>  
-      <Layer>   <ows:Title>標準地図</ows:Title>   <ows:Identifier>std</ows:Identifier>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/std/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>淡色地図</ows:Title>   <ows:Identifier>pale</ows:Identifier>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/pale/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>白地図</ows:Title>   <ows:Identifier>blank</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 48.9224992638</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/blank/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>English</ows:Title>   <ows:Identifier>english</ows:Identifier>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/english/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>写真</ows:Title>   <ows:Identifier>seamlessphoto</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>  </Layer> </Contents> 
+    <Layer>   
+     <ows:Title>標準地図</ows:Title>   
+     <ows:Identifier>std</ows:Identifier>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/std/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>淡色地図</ows:Title>   
+     <ows:Identifier>pale</ows:Identifier>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/pale/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>白地図</ows:Title>   
+     <ows:Identifier>blank</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 48.9224992638</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/blank/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>English</ows:Title>   
+     <ows:Identifier>english</ows:Identifier>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/english/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>写真</ows:Title>   
+     <ows:Identifier>seamlessphoto</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>   
+   </Layer>  
+ </Contents> 
 </Capabilities>

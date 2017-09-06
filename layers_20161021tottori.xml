@@ -218,5 +218,21 @@
             <MatrixHeight>262144</MatrixHeight>    
          </TileMatrix>   
       </TileMatrixSet>  
-      <Layer>   <ows:Title>正射画像（10/22撮影）</ows:Title>   <ows:Identifier>20161021tottori_1022dol</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>133.59375 35.173808318</ows:LowerCorner>    <ows:UpperCorner>134.296875 35.7465122599</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20161021tottori_1022dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer> </Contents> 
+    <Layer>   
+     <ows:Title>正射画像（10/22撮影）</ows:Title>   
+     <ows:Identifier>20161021tottori_1022dol</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>133.59375 35.173808318</ows:LowerCorner>    
+       <ows:UpperCorner>134.296875 35.7465122599</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20161021tottori_1022dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+ </Contents> 
 </Capabilities>

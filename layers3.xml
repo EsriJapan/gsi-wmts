@@ -218,5 +218,165 @@
             <MatrixHeight>262144</MatrixHeight>    
          </TileMatrix>   
       </TileMatrixSet>  
-      <Layer>   <ows:Title>基準点・測地観測_磁気図2015.0年値_磁気図（偏角）／偏角一覧図</ows:Title>   <ows:Identifier>jikizu2015_chijiki_d</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu2015_chijiki_d/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>基準点・測地観測_磁気図2015.0年値_磁気図（伏角）</ows:Title>   <ows:Identifier>jikizu2015_chijiki_i</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 21.9430455334</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu2015_chijiki_i/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>基準点・測地観測_磁気図2015.0年値_磁気図（全磁力）</ows:Title>   <ows:Identifier>jikizu2015_chijiki_f</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 21.9430455334</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu2015_chijiki_f/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>基準点・測地観測_磁気図2015.0年値_磁気図（水平分力）</ows:Title>   <ows:Identifier>jikizu2015_chijiki_h</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 21.9430455334</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu2015_chijiki_h/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>基準点・測地観測_磁気図2015.0年値_磁気図（鉛直分力）</ows:Title>   <ows:Identifier>jikizu2015_chijiki_z</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 21.9430455334</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu2015_chijiki_z/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>基準点・測地観測_磁気図2010.0年値_磁気図（偏角）／偏角一覧図</ows:Title>   <ows:Identifier>jikizu_chijikid</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu_chijikid/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>基準点・測地観測_磁気図2010.0年値_磁気図（伏角）</ows:Title>   <ows:Identifier>jikizu_chijikii</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu_chijikii/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>基準点・測地観測_磁気図2010.0年値_磁気図（全磁力）</ows:Title>   <ows:Identifier>jikizu_chijikif</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu_chijikif/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>基準点・測地観測_磁気図2010.0年値_磁気図（水平分力）</ows:Title>   <ows:Identifier>jikizu_chijikih</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu_chijikih/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>基準点・測地観測_磁気図2010.0年値_磁気図（鉛直分力）</ows:Title>   <ows:Identifier>jikizu_chijikiz</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu_chijikiz/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer> </Contents> 
+    <Layer>   
+     <ows:Title>基準点・測地観測_磁気図2015.0年値_磁気図（偏角）／偏角一覧図</ows:Title>   
+     <ows:Identifier>jikizu2015_chijiki_d</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu2015_chijiki_d/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>基準点・測地観測_磁気図2015.0年値_磁気図（伏角）</ows:Title>   
+     <ows:Identifier>jikizu2015_chijiki_i</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 21.9430455334</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu2015_chijiki_i/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>基準点・測地観測_磁気図2015.0年値_磁気図（全磁力）</ows:Title>   
+     <ows:Identifier>jikizu2015_chijiki_f</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 21.9430455334</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu2015_chijiki_f/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>基準点・測地観測_磁気図2015.0年値_磁気図（水平分力）</ows:Title>   
+     <ows:Identifier>jikizu2015_chijiki_h</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 21.9430455334</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu2015_chijiki_h/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>基準点・測地観測_磁気図2015.0年値_磁気図（鉛直分力）</ows:Title>   
+     <ows:Identifier>jikizu2015_chijiki_z</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 21.9430455334</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu2015_chijiki_z/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>基準点・測地観測_磁気図2010.0年値_磁気図（偏角）／偏角一覧図</ows:Title>   
+     <ows:Identifier>jikizu_chijikid</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu_chijikid/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>基準点・測地観測_磁気図2010.0年値_磁気図（伏角）</ows:Title>   
+     <ows:Identifier>jikizu_chijikii</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu_chijikii/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>基準点・測地観測_磁気図2010.0年値_磁気図（全磁力）</ows:Title>   
+     <ows:Identifier>jikizu_chijikif</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu_chijikif/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>基準点・測地観測_磁気図2010.0年値_磁気図（水平分力）</ows:Title>   
+     <ows:Identifier>jikizu_chijikih</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu_chijikih/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>基準点・測地観測_磁気図2010.0年値_磁気図（鉛直分力）</ows:Title>   
+     <ows:Identifier>jikizu_chijikiz</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jikizu_chijikiz/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+ </Contents> 
 </Capabilities>

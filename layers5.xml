@@ -218,5 +218,37 @@
             <MatrixHeight>262144</MatrixHeight>    
          </TileMatrix>   
       </TileMatrixSet>  
-      <Layer>   <ows:Title>他機関の情報_人口集中地区 平成27年（総務省統計局）</ows:Title>   <ows:Identifier>did2015</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/did2015/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>他機関の情報_人口集中地区 平成22年（総務省統計局）</ows:Title>   <ows:Identifier>did2010</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/did2010/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer> </Contents> 
+    <Layer>   
+     <ows:Title>他機関の情報_人口集中地区 平成27年（総務省統計局）</ows:Title>   
+     <ows:Identifier>did2015</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    
+       <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/did2015/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>他機関の情報_人口集中地区 平成22年（総務省統計局）</ows:Title>   
+     <ows:Identifier>did2010</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    
+       <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/did2010/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+ </Contents> 
 </Capabilities>

@@ -218,5 +218,21 @@
             <MatrixHeight>262144</MatrixHeight>    
          </TileMatrix>   
       </TileMatrixSet>  
-      <Layer>   <ows:Title>正射画像（12/29撮影）</ows:Title>   <ows:Identifier>20161228ibaraki_1229dol</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>140.2734375 36.5978891331</ows:LowerCorner>    <ows:UpperCorner>140.9765625 36.879620605</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20161228ibaraki_1229dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer> </Contents> 
+    <Layer>   
+     <ows:Title>正射画像（12/29撮影）</ows:Title>   
+     <ows:Identifier>20161228ibaraki_1229dol</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>140.2734375 36.5978891331</ows:LowerCorner>    
+       <ows:UpperCorner>140.9765625 36.879620605</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20161228ibaraki_1229dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+ </Contents> 
 </Capabilities>

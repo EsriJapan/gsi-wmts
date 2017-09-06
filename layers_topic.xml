@@ -218,5 +218,117 @@
             <MatrixHeight>262144</MatrixHeight>    
          </TileMatrix>   
       </TileMatrixSet>  
-      <Layer>   <ows:Title>色別標高図</ows:Title>   <ows:Identifier>relief</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/relief/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>都市圏活断層図_都市圏活断層図</ows:Title>   <ows:Identifier>afm</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/afm/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>アナグリフ・陰影起伏図・傾斜量図_アナグリフ（カラー）</ows:Title>   <ows:Identifier>anaglyphmap_color</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/anaglyphmap_color/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>アナグリフ・陰影起伏図・傾斜量図_アナグリフ（グレー）</ows:Title>   <ows:Identifier>anaglyphmap_gray</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/anaglyphmap_gray/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>アナグリフ・陰影起伏図・傾斜量図_陰影起伏図</ows:Title>   <ows:Identifier>hillshademap</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/hillshademap/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>アナグリフ・陰影起伏図・傾斜量図_傾斜量図</ows:Title>   <ows:Identifier>slopemap</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/slopemap/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer>  <Layer>   <ows:Title>アナグリフ・陰影起伏図・傾斜量図_全国傾斜量区分図（雪崩関連）</ows:Title>   <ows:Identifier>slopezone1map</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>120 20</ows:LowerCorner>    <ows:UpperCorner>154 50</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/slopezone1map/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer> </Contents> 
+    <Layer>   
+     <ows:Title>色別標高図</ows:Title>   
+     <ows:Identifier>relief</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/relief/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>都市圏活断層図_都市圏活断層図</ows:Title>   
+     <ows:Identifier>afm</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/afm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>アナグリフ・陰影起伏図・傾斜量図_アナグリフ（カラー）</ows:Title>   
+     <ows:Identifier>anaglyphmap_color</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/anaglyphmap_color/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>アナグリフ・陰影起伏図・傾斜量図_アナグリフ（グレー）</ows:Title>   
+     <ows:Identifier>anaglyphmap_gray</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/anaglyphmap_gray/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>アナグリフ・陰影起伏図・傾斜量図_陰影起伏図</ows:Title>   
+     <ows:Identifier>hillshademap</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/hillshademap/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>アナグリフ・陰影起伏図・傾斜量図_傾斜量図</ows:Title>   
+     <ows:Identifier>slopemap</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/slopemap/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>アナグリフ・陰影起伏図・傾斜量図_全国傾斜量区分図（雪崩関連）</ows:Title>   
+     <ows:Identifier>slopezone1map</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/slopezone1map/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+ </Contents> 
 </Capabilities>

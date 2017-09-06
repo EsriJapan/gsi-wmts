@@ -218,5 +218,21 @@
             <MatrixHeight>262144</MatrixHeight>    
          </TileMatrix>   
       </TileMatrixSet>  
-      <Layer>   <ows:Title>雪崩発生付近の地図</ows:Title>   <ows:Identifier>20170327nasu_chizu</ows:Identifier>   <ows:WGS84BoundingBox>    <ows:LowerCorner>139.943847656 37.1077650712</ows:LowerCorner>    <ows:UpperCorner>140.009765625 37.1428034437</ows:UpperCorner>   </ows:WGS84BoundingBox>   <Styles isDefault="true">    <ows:Identifier>default</ows:Identifier>   </Styles>   <Fomat>image/png</Fomat>   <TileMatrixSetLink>    <TileMatrixSet>z2to18</TileMatrixSet>   </TileMatrixSetLink>   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170327nasu_chizu/{TileMatrix}/{TileCol}/{TileRow}.png"/>  </Layer> </Contents> 
+    <Layer>   
+     <ows:Title>雪崩発生付近の地図</ows:Title>   
+     <ows:Identifier>20170327nasu_chizu</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>139.943847656 37.1077650712</ows:LowerCorner>    
+       <ows:UpperCorner>140.009765625 37.1428034437</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Fomat>image/png</Fomat>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170327nasu_chizu/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+ </Contents> 
 </Capabilities>
