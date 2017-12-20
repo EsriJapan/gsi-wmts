@@ -235,7 +235,7 @@
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/relief/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
    <Layer>   
-     <ows:Title>都市圏活断層図_都市圏活断層図</ows:Title>   
+     <ows:Title>活断層図_活断層図（都市圏活断層図）</ows:Title>   
      <ows:Identifier>afm</ows:Identifier>   
      <ows:WGS84BoundingBox>    
        <ows:LowerCorner>120 20</ows:LowerCorner>    
