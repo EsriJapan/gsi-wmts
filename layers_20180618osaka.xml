@@ -3245,9 +3245,9 @@
        <ows:LowerCorner>120 20</ows:LowerCorner>    
        <ows:UpperCorner>154 50</ows:UpperCorner>    
      </ows:WGS84BoundingBox>   
-     <Styles isDefault="true">    
+     <Style isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
-     </Styles>   
+     </Style>   
      <Fomat>image/png</Fomat>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
@@ -3261,9 +3261,9 @@
        <ows:LowerCorner>123.75 21.9430455334</ows:LowerCorner>    
        <ows:UpperCorner>146.25 48.9224992638</ows:UpperCorner>    
      </ows:WGS84BoundingBox>   
-     <Styles isDefault="true">    
+     <Style isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
-     </Styles>   
+     </Style>   
      <Fomat>image/png</Fomat>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
@@ -3277,9 +3277,9 @@
        <ows:LowerCorner>120 20</ows:LowerCorner>    
        <ows:UpperCorner>154 50</ows:UpperCorner>    
      </ows:WGS84BoundingBox>   
-     <Styles isDefault="true">    
+     <Style isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
-     </Styles>   
+     </Style>   
      <Fomat>image/png</Fomat>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
@@ -3293,9 +3293,9 @@
        <ows:LowerCorner>135.3515625 34.4522184728</ows:LowerCorner>    
        <ows:UpperCorner>135.87890625 35.029996369</ows:UpperCorner>    
      </ows:WGS84BoundingBox>   
-     <Styles isDefault="true">    
+     <Style isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
-     </Styles>   
+     </Style>   
      <Fomat>image/png</Fomat>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
