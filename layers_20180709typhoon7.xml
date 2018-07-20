@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Capabilities version="1.0.0" xmlns="https://www.opengis.net/wmts/1.0" xmlns:ows="https://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.opengis.net/wmts/1.0 https://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
+<Capabilities version="1.0.0" xmlns="https://www.opengis.net/wmts/1.0" xmlns:ows="https://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.opengis.net/wmts/1.0 https://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd" xmlns:gml="https://www.opengis.net/gml">
   <ows:ServiceIdentification>
     <ows:Title>layers_20180709typhoon7</ows:Title>
     <ows:Abstract>地理院地図の layers.txt に含まれるレイヤーのうち、WMTS で配信可能なレイヤーのみを取得したメタデータです。</ows:Abstract>
