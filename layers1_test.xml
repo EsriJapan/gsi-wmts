@@ -62,149 +62,113 @@
   </ows:OperationsMetadata>
   <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/saigai_test.xml" />
   <Contents>
-    <Layer>
-      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">朝倉市桂川地区【7月7日撮影】</ows:Title>
-      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">20170705typhoon3_0707dol4</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>130.709190 33.372878</ows:LowerCorner>
-        <ows:UpperCorner>130.759265 33.406132</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Style isDefault="true">
+    <Layer xmlns="https://www.opengis.net/wmts/1.0">
+      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">空中写真・衛星画像_全国ランドサットモザイク画像</ows:Title>
+      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">lndst</ows:Identifier>
+      <Styles isDefault="true">
         <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">default</ows:Identifier>
-      </Style>
-      <Format>image/png</Format>
+      </Styles>
+      <Fomat>image/png</Fomat>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0707dol4/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/lndst/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
-    <Layer>
-      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">朝倉市赤谷川地区【7月8日撮影】</ows:Title>
-      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">20170705typhoon3_0708dol5</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>130.716830 33.356542</ows:LowerCorner>
-        <ows:UpperCorner>130.876967 33.444593</ows:UpperCorner>
+    <Layer xmlns="https://www.opengis.net/wmts/1.0">
+      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">空中写真・衛星画像_東日本大震災後正射画像_2011年5月～2012年4月</ows:Title>
+      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">toho2</ows:Identifier>
+      <ows:WGS84BoundingBox xmlns:ows="https://www.opengis.net/ows/1.1">
+        <ows:LowerCorner>140.701904297 36.8444607408</ows:LowerCorner>
+        <ows:UpperCorner>142.097167969 40.6139524412</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <Style isDefault="true">
+      <Styles isDefault="true">
         <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">default</ows:Identifier>
-      </Style>
-      <Format>image/png</Format>
+      </Styles>
+      <Fomat>image/png</Fomat>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://maps.gsi.go.jp/xyz/20170705typhoon3_0708dol5/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho2/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
-    <Layer>
-      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">日田市小野地区【7月7日撮影】</ows:Title>
-      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">20170705typhoon3_0707dol</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>130.928831 33.378936 </ows:LowerCorner>
-        <ows:UpperCorner>130.949887 33.404391</ows:UpperCorner>
+    <Layer xmlns="https://www.opengis.net/wmts/1.0">
+      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">空中写真・衛星画像_東日本大震災後正射画像_2013年9月～2013年12月</ows:Title>
+      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">toho4</ows:Identifier>
+      <ows:WGS84BoundingBox xmlns:ows="https://www.opengis.net/ows/1.1">
+        <ows:LowerCorner>140.668945312 36.8444607408</ows:LowerCorner>
+        <ows:UpperCorner>142.097167969 40.4636663246</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <Style isDefault="true">
+      <Styles isDefault="true">
         <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">default</ows:Identifier>
-      </Style>
-      <Format>image/png</Format>
+      </Styles>
+      <Fomat>image/png</Fomat>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://maps.gsi.go.jp/xyz/20170705typhoon3_0707dol/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho4/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
-    <Layer>
-      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">日田市鶴河内鶴城地区【7月7日撮影】</ows:Title>
-      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">20170705typhoon3_0707dol2</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>130.894782 33.404514</ows:LowerCorner>
-        <ows:UpperCorner>130.907144 33.412165</ows:UpperCorner>
+    <Layer xmlns="https://www.opengis.net/wmts/1.0">
+      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">空中写真・衛星画像_1945年～1950年</ows:Title>
+      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">ort_USA10</ows:Identifier>
+      <ows:WGS84BoundingBox xmlns:ows="https://www.opengis.net/ows/1.1">
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <Style isDefault="true">
+      <Styles isDefault="true">
         <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">default</ows:Identifier>
-      </Style>
-      <Format>image/png</Format>
+      </Styles>
+      <Fomat>image/png</Fomat>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://maps.gsi.go.jp/xyz/20170705typhoon3_0707dol2/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/ort_USA10/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
-    <Layer>
-      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">朝倉市山田奈良ヶ谷地区【7月7日撮影】</ows:Title>
-      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">20170705typhoon3_0707dol3</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>130.764217 33.381916</ows:LowerCorner>
-        <ows:UpperCorner>130.771698 33.386455</ows:UpperCorner>
+    <Layer xmlns="https://www.opengis.net/wmts/1.0">
+      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">空中写真・衛星画像_1984年～1987年</ows:Title>
+      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">gazo3</ows:Identifier>
+      <ows:WGS84BoundingBox xmlns:ows="https://www.opengis.net/ows/1.1">
+        <ows:LowerCorner>134.6484375 34.0162418897</ows:LowerCorner>
+        <ows:UpperCorner>142.03125 43.32517768</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <Style isDefault="true">
+      <Styles isDefault="true">
         <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">default</ows:Identifier>
-      </Style>
-      <Format>image/png</Format>
+      </Styles>
+      <Fomat>image/png</Fomat>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://maps.gsi.go.jp/xyz/20170705typhoon3_0707dol3/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/gazo3/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
-    <Layer>
-      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">朝倉市佐田疣目地区【7月8日撮影】</ows:Title>
-      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">20170705typhoon3_0708dol2</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>130.749869 33.354539</ows:LowerCorner>
-        <ows:UpperCorner>130.875329 33.449163 </ows:UpperCorner>
+    <Layer xmlns="https://www.opengis.net/wmts/1.0">
+      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">空中写真・衛星画像_全国最新写真（シームレス）</ows:Title>
+      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">seamlessphoto</ows:Identifier>
+      <ows:WGS84BoundingBox xmlns:ows="https://www.opengis.net/ows/1.1">
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <Style isDefault="true">
+      <Styles isDefault="true">
         <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">default</ows:Identifier>
-      </Style>
-      <Format>image/png</Format>
+      </Styles>
+      <Fomat>image/png</Fomat>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://maps.gsi.go.jp/xyz/20170705typhoon3_0708dol2/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
-    <Layer>
-      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">朝倉市黒川西原地区【7月8日撮影】</ows:Title>
-      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">20170705typhoon3_0708dol1</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>130.719177 33.353864</ows:LowerCorner>
-        <ows:UpperCorner>130.867791 33.446467</ows:UpperCorner>
+    <Layer xmlns="https://www.opengis.net/wmts/1.0">
+      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">空中写真・衛星画像_2004年～（簡易空中写真）</ows:Title>
+      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">airphoto</ows:Identifier>
+      <ows:WGS84BoundingBox xmlns:ows="https://www.opengis.net/ows/1.1">
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 50</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <Style isDefault="true">
+      <Styles isDefault="true">
         <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">default</ows:Identifier>
-      </Style>
-      <Format>image/png</Format>
+      </Styles>
+      <Fomat>image/png</Fomat>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://maps.gsi.go.jp/xyz/20170705typhoon3_0708dol1/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
-      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">朝倉市黒川馬場地区【7月8日撮影】</ows:Title>
-      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">20170705typhoon3_0708dol3</ows:Identifier>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>130.714331 33.348692</ows:LowerCorner>
-        <ows:UpperCorner>130.864560 33.445569</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Style isDefault="true">
-        <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">default</ows:Identifier>
-      </Style>
-      <Format>image/png</Format>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://maps.gsi.go.jp/xyz/20170705typhoon3_0708dol3/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
-      <ows:Title>朝倉市杷木志波平榎地区【7月8日撮影】</ows:Title>
-      <ows:Identifier>20170705typhoon3_0708dol4</ows:Identifier>
-      <Style isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Style>
-      <ows:WGS84BoundingBox>
-        <ows:LowerCorner>130.721869  33.356788</ows:LowerCorner>
-        <ows:UpperCorner>130.875599  33.446692</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Format>image/png</Format>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://maps.gsi.go.jp/xyz/20170705typhoon3_0708dol4/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/airphoto/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <TileMatrixSet>
       <ows:Identifier>z2to18</ows:Identifier>
@@ -3383,21 +3347,21 @@
         <MatrixHeight>65536</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
-    <Layer>
-      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">浸水推定段彩図_岡山県倉敷市（7/7時点）</ows:Title>
-      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">201807H3007gouu_kurashiki_0707dansaizu</ows:Identifier>
-      <ows:WGS84BoundingBox xmlns:ows="https://www.opengis.net/ows/1.1">
-        <ows:LowerCorner>129.375 31.952162238</ows:LowerCorner>
-        <ows:UpperCorner>135.0 36.5978891331</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Styles isDefault="true">
-        <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/201807H3007gouu_kurashiki_0707dansaizu/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
   </Contents>
+  <Layer xmlns="https://www.opengis.net/wmts/1.0">
+    <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">空中写真・衛星画像_1974年～1978年</ows:Title>
+    <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">gazo1</ows:Identifier>
+    <ows:WGS84BoundingBox xmlns:ows="https://www.opengis.net/ows/1.1">
+      <ows:LowerCorner>122.6953125 23.8858376999</ows:LowerCorner>
+      <ows:UpperCorner>145.8984375 45.583289756</ows:UpperCorner>
+    </ows:WGS84BoundingBox>
+    <Styles isDefault="true">
+      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">default</ows:Identifier>
+    </Styles>
+    <Fomat>image/png</Fomat>
+    <TileMatrixSetLink>
+      <TileMatrixSet>z2to18</TileMatrixSet>
+    </TileMatrixSetLink>
+    <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/gazo1/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+  </Layer>
 </Capabilities>
