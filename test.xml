@@ -220,20 +220,20 @@
       </TileMatrix>
     </TileMatrixSet>
     <Layer>
-      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">活断層図_活断層図</ows:Title>
-      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">afm</ows:Identifier>
+      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">朝倉市桂川地区【7月7日撮影】</ows:Title>
+      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">20170705typhoon3_0707dol4</ows:Identifier>
       <ows:WGS84BoundingBox xmlns:ows="https://www.opengis.net/ows/1.1">
-        <ows:LowerCorner>120.0 20.0</ows:LowerCorner>
-        <ows:UpperCorner>154.0 50.0</ows:UpperCorner>
+        <ows:LowerCorner>130.709190 33.372878</ows:LowerCorner>
+        <ows:UpperCorner>130.759265 33.406132</ows:UpperCorner>
       </ows:WGS84BoundingBox>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
+      <Style isDefault="true">
+        <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/afm/{TileMatrix}/{TileCol}/{TileRow}.png" />
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0707dol4/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
   </Contents>
 </Capabilities>
