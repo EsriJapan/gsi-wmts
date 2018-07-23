@@ -228,7 +228,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -244,7 +244,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -260,7 +260,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -276,7 +276,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -292,7 +292,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -308,7 +308,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -324,7 +324,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -340,7 +340,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -356,7 +356,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -372,7 +372,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -388,7 +388,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -404,7 +404,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -420,7 +420,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -436,7 +436,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -452,7 +452,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -468,7 +468,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -484,7 +484,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -500,7 +500,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -516,7 +516,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -532,7 +532,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -548,7 +548,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -564,7 +564,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -580,7 +580,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -596,7 +596,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -612,7 +612,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -628,7 +628,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -644,7 +644,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -660,7 +660,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -676,7 +676,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -692,7 +692,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -708,7 +708,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -724,7 +724,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -740,7 +740,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -756,7 +756,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -772,14 +772,14 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20130717dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
    <Layer>   
-     <ows:Title>地震、台風・豪雨等、火山_火山_箱根山_火山基本図「箱根山」</ows:Title>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_十勝岳_火山基本図「十勝岳」</ows:Title>   
      <ows:Identifier>vbm</ows:Identifier>   
      <ows:WGS84BoundingBox>    
        <ows:LowerCorner>120 20</ows:LowerCorner>    
@@ -788,11 +788,75 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_十勝岳_火山土地条件図「十勝岳」</ows:Title>   
+     <ows:Identifier>vlcd</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vlcd/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_吾妻山_火山基本図「吾妻山」</ows:Title>   
+     <ows:Identifier>vbm</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_浅間山_火山基本図「浅間山」</ows:Title>   
+     <ows:Identifier>vbm</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_箱根山_火山基本図データ（基図）</ows:Title>   
+     <ows:Identifier>vbmd_bm</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_bm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
    <Layer>   
      <ows:Title>地震、台風・豪雨等、火山_火山_箱根山_火山基本図「箱根山」（陰影段彩）</ows:Title>   
@@ -804,7 +868,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -820,7 +884,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -836,7 +900,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -852,7 +916,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -868,7 +932,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -884,7 +948,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -900,14 +964,14 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20140818d_mag_ontake/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
    <Layer>   
-     <ows:Title>地震、台風・豪雨等、火山_火山_御嶽山_火山基本図</ows:Title>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_御嶽山_火山基本図「御嶽山」</ows:Title>   
      <ows:Identifier>vbm</ows:Identifier>   
      <ows:WGS84BoundingBox>    
        <ows:LowerCorner>120 20</ows:LowerCorner>    
@@ -916,14 +980,14 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
    <Layer>   
-     <ows:Title>地震、台風・豪雨等、火山_火山_御嶽山_火山基本図（透過）</ows:Title>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_御嶽山_火山基本図「御嶽山」（透過）</ows:Title>   
      <ows:Identifier>20140927d_vlcd_t_ontake</ows:Identifier>   
      <ows:WGS84BoundingBox>    
        <ows:LowerCorner>120 20</ows:LowerCorner>    
@@ -932,14 +996,14 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20140927d_vlcd_t_ontake/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
    <Layer>   
-     <ows:Title>地震、台風・豪雨等、火山_火山_御嶽山_火山土地条件図</ows:Title>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_御嶽山_火山土地条件図「御嶽山」</ows:Title>   
      <ows:Identifier>vlcd</ows:Identifier>   
      <ows:WGS84BoundingBox>    
        <ows:LowerCorner>120 20</ows:LowerCorner>    
@@ -948,7 +1012,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -964,11 +1028,299 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/2013_s-ortho_asosan/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_阿蘇山_火山基本図「阿蘇山」</ows:Title>   
+     <ows:Identifier>vbm</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_阿蘇山_火山土地条件図「阿蘇山」</ows:Title>   
+     <ows:Identifier>vlcd</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vlcd/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_航空機SAR（えびの高原（硫黄山））_2018/4/20観測（北東から観測した画像) </ows:Title>   
+     <ows:Identifier>20180419kirishima_apsar180420nesw</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.78125 31.6533813997</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 32.2499744559</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20180419kirishima_apsar180420nesw/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_航空機SAR（えびの高原（硫黄山））_2018/4/20観測（南西から観測した画像) </ows:Title>   
+     <ows:Identifier>20180419kirishima_apsar180420swne</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.78125 31.6533813997</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 32.2499744559</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20180419kirishima_apsar180420swne/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_航空機SAR（えびの高原（硫黄山））_2018/2/26観測（北東から観測した画像) </ows:Title>   
+     <ows:Identifier>20180419kirishima_apsar180226nesw</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.78125 31.6533813997</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 32.2499744559</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20180419kirishima_apsar180226nesw/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_航空機SAR（えびの高原（硫黄山））_2018/2/26観測（南西から観測した画像) </ows:Title>   
+     <ows:Identifier>20180419kirishima_apsar180226swne</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.4296875 31.6533813997</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 32.2499744559</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20180419kirishima_apsar180226swne/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_火山災害対策用図（新燃岳周辺）</ows:Title>   
+     <ows:Identifier>20180309_kazantaisaku_kirishima</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20180309_kazantaisaku_kirishima/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_赤色立体地図（新燃岳周辺）</ows:Title>   
+     <ows:Identifier>20180309_sekisyokurittai_kirishima</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20180309_sekisyokurittai_kirishima/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_航空機SAR（新燃岳）_2018/3/27観測（西から東) </ows:Title>   
+     <ows:Identifier>20180328kirishima_apsar180327we</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.78125 31.6533813997</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 31.952162238</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20180328kirishima_apsar180327we/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_航空機SAR（新燃岳）_2018/3/27観測（東から西) </ows:Title>   
+     <ows:Identifier>20180328kirishima_apsar180327ew</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.78125 31.6533813997</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 31.952162238</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20180328kirishima_apsar180327ew/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_航空機SAR（新燃岳）_2017/10/12観測（西から東) </ows:Title>   
+     <ows:Identifier>20171011kirishima_apsar171012we</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.78125 31.6533813997</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 31.952162238</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20171011kirishima_apsar171012we/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_航空機SAR（新燃岳）_2017/10/12観測（東から西) </ows:Title>   
+     <ows:Identifier>20171011kirishima_apsar171012ew</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.78125 31.6533813997</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 31.952162238</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20171011kirishima_apsar171012ew/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_航空機SAR（新燃岳）_2014/11/5観測（西から東）</ows:Title>   
+     <ows:Identifier>20171011kirishima_apsar141105we</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.78125 31.6533813997</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 31.952162238</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20171011kirishima_apsar141105we/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_航空機SAR（新燃岳）_2014/11/5観測（東から西）</ows:Title>   
+     <ows:Identifier>20171011kirishima_apsar141105ew</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.78125 31.6533813997</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 31.952162238</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20171011kirishima_apsar141105ew/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_火山基本図データ_火山基本図データ（基図）</ows:Title>   
+     <ows:Identifier>vbmd_bm</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_bm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_火山基本図データ_火山基本図データ（陰影段彩図）</ows:Title>   
+     <ows:Identifier>vbmd_colorrel</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_colorrel/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_火山基本図データ_火山基本図データ（写真地図）</ows:Title>   
+     <ows:Identifier>vbmd_pm</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_pm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_霧島山_火山土地条件図「霧島山」</ows:Title>   
+     <ows:Identifier>vlcd</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vlcd/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
    <Layer>   
      <ows:Title>地震、台風・豪雨等、火山_火山_桜島_過去の簡易空中写真（2014年）</ows:Title>   
@@ -980,14 +1332,14 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/2014_s-ortho_sakurajima/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
    <Layer>   
-     <ows:Title>地震、台風・豪雨等、火山_火山_桜島_火山土地条件図</ows:Title>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_桜島_火山土地条件図「桜島」</ows:Title>   
      <ows:Identifier>vlcd</ows:Identifier>   
      <ows:WGS84BoundingBox>    
        <ows:LowerCorner>120 20</ows:LowerCorner>    
@@ -996,7 +1348,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1012,7 +1364,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1028,11 +1380,59 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/2015_relief_sakurajima/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_桜島_火山基本図データ_火山基本図データ（基図）</ows:Title>   
+     <ows:Identifier>vbmd_bm</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_bm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_桜島_火山基本図データ_火山基本図データ（陰影段彩図）</ows:Title>   
+     <ows:Identifier>vbmd_colorrel</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_colorrel/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_桜島_火山基本図データ_火山基本図データ（写真地図）</ows:Title>   
+     <ows:Identifier>vbmd_pm</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_pm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
    <Layer>   
      <ows:Title>地震、台風・豪雨等、火山_火山_口永良部島_Landsat8観測画像_2015/7/24</ows:Title>   
@@ -1044,7 +1444,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1060,7 +1460,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1076,7 +1476,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1092,7 +1492,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1108,7 +1508,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1124,7 +1524,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1140,7 +1540,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1156,11 +1556,75 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/airphoto/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_口永良部島_火山基本図データ_火山基本図データ（基図）</ows:Title>   
+     <ows:Identifier>vbmd_bm</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_bm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_口永良部島_火山基本図データ_火山基本図データ（陰影段彩図）</ows:Title>   
+     <ows:Identifier>vbmd_colorrel</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_colorrel/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_口永良部島_火山基本図データ_火山基本図データ（写真地図）</ows:Title>   
+     <ows:Identifier>vbmd_pm</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_pm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_西之島付近_正射画像_2018/1/17</ows:Title>   
+     <ows:Identifier>20180117dol</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>140.625 27.0591257844</ows:LowerCorner>    
+       <ows:UpperCorner>140.9765625 27.3717673005</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20180117dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
    <Layer>   
      <ows:Title>地震、台風・豪雨等、火山_火山_西之島付近_正射画像_2016/12/20</ows:Title>   
@@ -1172,7 +1636,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1188,7 +1652,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1204,7 +1668,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1220,7 +1684,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1236,7 +1700,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1252,7 +1716,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1268,7 +1732,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1284,7 +1748,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1300,7 +1764,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1316,7 +1780,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1332,7 +1796,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1348,7 +1812,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1364,7 +1828,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1380,7 +1844,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1396,7 +1860,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1412,7 +1876,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1428,7 +1892,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1444,7 +1908,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1460,7 +1924,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1476,7 +1940,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1492,7 +1956,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1508,7 +1972,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1524,7 +1988,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1540,7 +2004,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1556,7 +2020,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1572,7 +2036,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1588,7 +2052,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1604,7 +2068,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1620,7 +2084,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1636,7 +2100,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1652,7 +2116,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1668,7 +2132,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1684,7 +2148,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1700,7 +2164,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1716,7 +2180,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1732,7 +2196,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1748,7 +2212,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1764,7 +2228,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1780,7 +2244,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1796,7 +2260,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1812,7 +2276,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1828,7 +2292,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1844,7 +2308,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1860,7 +2324,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1876,7 +2340,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1892,7 +2356,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1908,7 +2372,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1924,7 +2388,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1940,7 +2404,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1956,7 +2420,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1972,7 +2436,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -1988,7 +2452,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -2004,7 +2468,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -2020,7 +2484,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -2036,7 +2500,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
@@ -2052,11 +2516,59 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20130903lsi/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_西之島付近_火山基本図データ_火山基本図データ（基図）</ows:Title>   
+     <ows:Identifier>vbmd_bm</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_bm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_西之島付近_火山基本図データ_火山基本図データ（陰影段彩図）</ows:Title>   
+     <ows:Identifier>vbmd_colorrel</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_colorrel/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>地震、台風・豪雨等、火山_火山_西之島付近_火山基本図データ_火山基本図データ（写真地図）</ows:Title>   
+     <ows:Identifier>vbmd_pm</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbmd_pm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
  </Contents> 
 </Capabilities>
