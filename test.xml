@@ -223,8 +223,8 @@
       <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">活断層図_活断層図</ows:Title>
       <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">afm</ows:Identifier>
       <ows:WGS84BoundingBox xmlns:ows="https://www.opengis.net/ows/1.1">
-        <ows:LowerCorner>120 20</ows:LowerCorner>
-        <ows:UpperCorner>154 50</ows:UpperCorner>
+        <ows:LowerCorner>120.0 20.0</ows:LowerCorner>
+        <ows:UpperCorner>154.0 50.0</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
