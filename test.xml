@@ -63,54 +63,6 @@
   <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/saigai_test.xml" />
   <Contents>
     <Layer>
-      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">デジタル標高地形図_大阪_2015年11月</ows:Title>
-      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">d1-no845</ows:Identifier>
-      <ows:WGS84BoundingBox xmlns:ows="https://www.opengis.net/ows/1.1">
-        <ows:LowerCorner>135.3515625 34.4522184728</ows:LowerCorner>
-        <ows:UpperCorner>135.87890625 35.029996369</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Styles isDefault="true">
-        <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/d1-no845/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
-      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">治水地形分類図_初版(1976～1978年)</ows:Title>
-      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">lcmfc1</ows:Identifier>
-      <ows:WGS84BoundingBox xmlns:ows="https://www.opengis.net/ows/1.1">
-        <ows:LowerCorner>120 20</ows:LowerCorner>
-        <ows:UpperCorner>154 50</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Styles isDefault="true">
-        <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/lcmfc1/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
-      <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">治水地形分類図_更新版(2007～2016年)</ows:Title>
-      <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">lcmfc2</ows:Identifier>
-      <ows:WGS84BoundingBox xmlns:ows="https://www.opengis.net/ows/1.1">
-        <ows:LowerCorner>123.75 21.9430455334</ows:LowerCorner>
-        <ows:UpperCorner>146.25 48.9224992638</ows:UpperCorner>
-      </ows:WGS84BoundingBox>
-      <Styles isDefault="true">
-        <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/lcmfc2/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
       <ows:Title xmlns:ows="https://www.opengis.net/ows/1.1">活断層図_活断層図</ows:Title>
       <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">afm</ows:Identifier>
       <ows:WGS84BoundingBox xmlns:ows="https://www.opengis.net/ows/1.1">
