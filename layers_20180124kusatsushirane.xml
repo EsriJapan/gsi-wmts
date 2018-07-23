@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><Capabilities version="1.0.0" xmlns="https://www.opengis.net/wmts/1.0" xmlns:ows="https://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.opengis.net/wmts/1.0 https://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"> 
    <ows:ServiceIdentification>  
-      <ows:Title>layers_invisible</ows:Title>  
+      <ows:Title>layers_20180124kusatsushirane</ows:Title>  
       <ows:Abstract>地理院地図の layers.txt に含まれるレイヤーのうち、WMTS で配信可能なレイヤーのみを取得したメタデータです。</ows:Abstract>  
       <ows:Keywords>   
          <ows:Keyword>gsi</ows:Keyword>   
@@ -35,7 +35,7 @@
       <ows:Operation name="GetCapabilities">   
          <ows:DCP>    
             <ows:HTTP>     
-               <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_invisible.xml" xmlns="http://www.w3.org/1999/xlink">      
+               <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20180124kusatsushirane.xml" xmlns="http://www.w3.org/1999/xlink">      
                   <ows:Constraint name="GetEncoding">       
                      <ows:AllowedValues>        
                         <ows:Value>RESTful</ows:Value>        
@@ -48,7 +48,7 @@
       <ows:Operation name="GetTile">   
          <ows:DCP>    
             <ows:HTTP>     
-               <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_invisible.xml" xmlns="http://www.w3.org/1999/xlink">      
+               <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20180124kusatsushirane.xml" xmlns="http://www.w3.org/1999/xlink">      
                   <ows:Constraint name="GetEncoding">       
                      <ows:AllowedValues>        
                         <ows:Value>RESTful</ows:Value>        
@@ -59,7 +59,7 @@
          </ows:DCP>   
       </ows:Operation>  
    </ows:OperationsMetadata> 
-   <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/layers_invisible.xml"/> 
+   <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20180124kusatsushirane.xml"/> 
    <Contents>  
       <TileMatrixSet>   
          <ows:Identifier>z2to18</ows:Identifier>   
@@ -219,8 +219,104 @@
          </TileMatrix>   
       </TileMatrixSet>  
     <Layer>   
-     <ows:Title>標高タイル（基盤地図情報数値標高モデル）PNG</ows:Title>   
-     <ows:Identifier>dem_png</ows:Identifier>   
+     <ows:Title>火山災害対策用図</ows:Title>   
+     <ows:Identifier>2018_kazantaisaku_kusatsushirane</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>135.0 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 40.9798980696</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/2018_kazantaisaku_kusatsushirane/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>火山災害対策用図（鏡池周辺）</ows:Title>   
+     <ows:Identifier>2018_kazantaisaku_kagamiike</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>135.0 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 40.9798980696</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/2018_kazantaisaku_kagamiike/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>航空機SAR画像（速報）_2018/1/27観測（南から北）</ows:Title>   
+     <ows:Identifier>20180127kusatsushirane_apsar180127sn</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>138.515625 36.5978891331</ows:LowerCorner>    
+       <ows:UpperCorner>138.8671875 36.879620605</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20180127kusatsushirane_apsar180127sn/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>航空機SAR画像（速報）_2018/1/27観測（北東から南西) </ows:Title>   
+     <ows:Identifier>20180127kusatsushirane_apsar180127nesw</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>138.515625 36.5978891331</ows:LowerCorner>    
+       <ows:UpperCorner>138.8671875 36.879620605</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20180127kusatsushirane_apsar180127nesw/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>赤色立体地図</ows:Title>   
+     <ows:Identifier>20180130_kusatsushiranesan_sekishokurittai</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>135.0 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 40.9798980696</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20180130_kusatsushiranesan_sekishokurittai/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>正射画像_2018/2/16･27（無人航空機（UAV)撮影）</ows:Title>   
+     <ows:Identifier>20180124kusatsushirane_0216uav</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>138.515625 36.5978891331</ows:LowerCorner>    
+       <ows:UpperCorner>138.8671875 36.879620605</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20180124kusatsushirane_0216uav/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>火山基本図「草津白根山」</ows:Title>   
+     <ows:Identifier>vbm</ows:Identifier>   
      <ows:WGS84BoundingBox>    
        <ows:LowerCorner>120 20</ows:LowerCorner>    
        <ows:UpperCorner>154 50</ows:UpperCorner>    
@@ -232,11 +328,15 @@
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
-     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/dem_png/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vbm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
    <Layer>   
-     <ows:Title>標高タイル（地球地図全球版標高第2版）PNG</ows:Title>   
-     <ows:Identifier>demgm_png</ows:Identifier>   
+     <ows:Title>火山土地条件図「草津白根山」</ows:Title>   
+     <ows:Identifier>vlcd</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>120 20</ows:LowerCorner>    
+       <ows:UpperCorner>154 50</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
@@ -244,7 +344,7 @@
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
-     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/demgm_png/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vlcd/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
  </Contents> 
 </Capabilities>

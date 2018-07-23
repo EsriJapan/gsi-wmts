@@ -228,7 +228,7 @@
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
-     <Fomat>image/png</Fomat>   
+     <Format>image/png</Format>   
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   

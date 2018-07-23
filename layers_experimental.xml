@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><Capabilities version="1.0.0" xmlns="https://www.opengis.net/wmts/1.0" xmlns:ows="https://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.opengis.net/wmts/1.0 https://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"> 
    <ows:ServiceIdentification>  
-      <ows:Title>layers_invisible</ows:Title>  
+      <ows:Title>layers_experimental</ows:Title>  
       <ows:Abstract>地理院地図の layers.txt に含まれるレイヤーのうち、WMTS で配信可能なレイヤーのみを取得したメタデータです。</ows:Abstract>  
       <ows:Keywords>   
          <ows:Keyword>gsi</ows:Keyword>   
@@ -35,7 +35,7 @@
       <ows:Operation name="GetCapabilities">   
          <ows:DCP>    
             <ows:HTTP>     
-               <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_invisible.xml" xmlns="http://www.w3.org/1999/xlink">      
+               <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_experimental.xml" xmlns="http://www.w3.org/1999/xlink">      
                   <ows:Constraint name="GetEncoding">       
                      <ows:AllowedValues>        
                         <ows:Value>RESTful</ows:Value>        
@@ -48,7 +48,7 @@
       <ows:Operation name="GetTile">   
          <ows:DCP>    
             <ows:HTTP>     
-               <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_invisible.xml" xmlns="http://www.w3.org/1999/xlink">      
+               <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_experimental.xml" xmlns="http://www.w3.org/1999/xlink">      
                   <ows:Constraint name="GetEncoding">       
                      <ows:AllowedValues>        
                         <ows:Value>RESTful</ows:Value>        
@@ -59,7 +59,7 @@
          </ows:DCP>   
       </ows:Operation>  
    </ows:OperationsMetadata> 
-   <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/layers_invisible.xml"/> 
+   <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/layers_experimental.xml"/> 
    <Contents>  
       <TileMatrixSet>   
          <ows:Identifier>z2to18</ows:Identifier>   
@@ -219,11 +219,11 @@
          </TileMatrix>   
       </TileMatrixSet>  
     <Layer>   
-     <ows:Title>標高タイル（基盤地図情報数値標高モデル）PNG</ows:Title>   
-     <ows:Identifier>dem_png</ows:Identifier>   
+     <ows:Title>ベクトルタイル提供実験_┗住居表示住所の提供範囲</ows:Title>   
+     <ows:Identifier>experimental_jhj_area</ows:Identifier>   
      <ows:WGS84BoundingBox>    
-       <ows:LowerCorner>120 20</ows:LowerCorner>    
-       <ows:UpperCorner>154 50</ows:UpperCorner>    
+       <ows:LowerCorner>123.75 21.9430455334</ows:LowerCorner>    
+       <ows:UpperCorner>146.25 48.9224992638</ows:UpperCorner>    
      </ows:WGS84BoundingBox>   
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
@@ -232,19 +232,7 @@
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
-     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/dem_png/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
-   </Layer>  
-   <Layer>   
-     <ows:Title>標高タイル（地球地図全球版標高第2版）PNG</ows:Title>   
-     <ows:Identifier>demgm_png</ows:Identifier>   
-     <Styles isDefault="true">    
-       <ows:Identifier>default</ows:Identifier>    
-     </Styles>   
-     <Format>image/png</Format>   
-     <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
-     </TileMatrixSetLink>   
-     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/demgm_png/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/experimental_jhj_area/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
  </Contents> 
 </Capabilities>

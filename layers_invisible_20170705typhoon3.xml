@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><Capabilities version="1.0.0" xmlns="https://www.opengis.net/wmts/1.0" xmlns:ows="https://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.opengis.net/wmts/1.0 https://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"> 
    <ows:ServiceIdentification>  
-      <ows:Title>layers_invisible</ows:Title>  
+      <ows:Title>layers_invisible_20170705typhoon3</ows:Title>  
       <ows:Abstract>地理院地図の layers.txt に含まれるレイヤーのうち、WMTS で配信可能なレイヤーのみを取得したメタデータです。</ows:Abstract>  
       <ows:Keywords>   
          <ows:Keyword>gsi</ows:Keyword>   
@@ -35,7 +35,7 @@
       <ows:Operation name="GetCapabilities">   
          <ows:DCP>    
             <ows:HTTP>     
-               <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_invisible.xml" xmlns="http://www.w3.org/1999/xlink">      
+               <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_invisible_20170705typhoon3.xml" xmlns="http://www.w3.org/1999/xlink">      
                   <ows:Constraint name="GetEncoding">       
                      <ows:AllowedValues>        
                         <ows:Value>RESTful</ows:Value>        
@@ -48,7 +48,7 @@
       <ows:Operation name="GetTile">   
          <ows:DCP>    
             <ows:HTTP>     
-               <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_invisible.xml" xmlns="http://www.w3.org/1999/xlink">      
+               <ows:Get xlink:href="https://esrijapan.github.io/gsi-wmts/layers_invisible_20170705typhoon3.xml" xmlns="http://www.w3.org/1999/xlink">      
                   <ows:Constraint name="GetEncoding">       
                      <ows:AllowedValues>        
                         <ows:Value>RESTful</ows:Value>        
@@ -59,7 +59,7 @@
          </ows:DCP>   
       </ows:Operation>  
    </ows:OperationsMetadata> 
-   <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/layers_invisible.xml"/> 
+   <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/layers_invisible_20170705typhoon3.xml"/> 
    <Contents>  
       <TileMatrixSet>   
          <ows:Identifier>z2to18</ows:Identifier>   
@@ -219,11 +219,11 @@
          </TileMatrix>   
       </TileMatrixSet>  
     <Layer>   
-     <ows:Title>標高タイル（基盤地図情報数値標高モデル）PNG</ows:Title>   
-     <ows:Identifier>dem_png</ows:Identifier>   
+     <ows:Title>正射画像_被災後の写真　統合版【7月7～13日撮影】</ows:Title>   
+     <ows:Identifier>20170705typhoon3_dol_all2</ows:Identifier>   
      <ows:WGS84BoundingBox>    
-       <ows:LowerCorner>120 20</ows:LowerCorner>    
-       <ows:UpperCorner>154 50</ows:UpperCorner>    
+       <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 33.7243396617</ows:UpperCorner>    
      </ows:WGS84BoundingBox>   
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
@@ -232,11 +232,15 @@
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
-     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/dem_png/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_dol_all2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
    <Layer>   
-     <ows:Title>標高タイル（地球地図全球版標高第2版）PNG</ows:Title>   
-     <ows:Identifier>demgm_png</ows:Identifier>   
+     <ows:Title>正射画像_朝倉市赤谷川地区正射画像（7/8撮影）</ows:Title>   
+     <ows:Identifier>20170705typhoon3_0708dol5</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 33.7243396617</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
      <Styles isDefault="true">    
        <ows:Identifier>default</ows:Identifier>    
      </Styles>   
@@ -244,7 +248,87 @@
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
-     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/demgm_png/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0708dol5/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>正射画像_朝倉市杷木志波平榎地区正射画像（7/8撮影）</ows:Title>   
+     <ows:Identifier>20170705typhoon3_0708dol4</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 33.7243396617</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0708dol4/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>正射画像_朝倉市黒川馬場地区正射画像（7/8撮影）</ows:Title>   
+     <ows:Identifier>20170705typhoon3_0708dol3</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 33.7243396617</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0708dol3/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>正射画像_朝倉市佐田疣目地区正射画像（7/8撮影）</ows:Title>   
+     <ows:Identifier>20170705typhoon3_0708dol2</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 33.7243396617</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0708dol2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>正射画像_朝倉市桂川地区正射画像（7/7撮影）</ows:Title>   
+     <ows:Identifier>20170705typhoon3_0707dol4</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 33.4314413356</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0707dol4/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>  
+   <Layer>   
+     <ows:Title>正射画像_日田市鶴河内鶴城地区正射画像（7/7撮影）</ows:Title>   
+     <ows:Identifier>20170705typhoon3_0707dol2</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>130.4296875 33.1375511923</ows:LowerCorner>    
+       <ows:UpperCorner>131.1328125 33.4314413356</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20170705typhoon3_0707dol2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
  </Contents> 
 </Capabilities>
