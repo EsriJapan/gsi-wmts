@@ -16,7 +16,7 @@
   </ows:ServiceIdentification>
   <ows:ServiceProvider xmlns="http://www.w3.org/1999/xlink">
     <ows:ProviderName>ESRIジャパン株式会社（Esri Japan）</ows:ProviderName>
-    <ows:ProviderSite xlink:href="https://www.esrij.com/" />
+    <ows:ProviderSite xlink:href="https://www.esrij.com/" xmlns:xlink="http://www.w3.org/1999/xlink" />
     <ows:ServiceContact>
       <ows:IndividualName>ESRIジャパン株式会社（Esri Japan）</ows:IndividualName>
       <ows:PositionName>ESRIジャパン株式会社（Esri Japan）</ows:PositionName>
