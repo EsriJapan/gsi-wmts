@@ -229,7 +229,7 @@
       <Styles isDefault="true">
         <ows:Identifier xmlns:ows="https://www.opengis.net/ows/1.1">default</ows:Identifier>
       </Styles>
-      <Fomat>image/png</Fomat>
+      <Format>image/png</Format>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
