@@ -281,11 +281,11 @@
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
-      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+      <ResourceURL format="image/jpeg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
   </Contents>
 </Capabilities>

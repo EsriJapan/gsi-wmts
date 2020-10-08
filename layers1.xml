@@ -229,11 +229,11 @@
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
-      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+      <ResourceURL format="image/jpeg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
     <Layer>
       <ows:Title>空中写真・衛星画像_2007年～</ows:Title>
@@ -241,11 +241,11 @@
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
-      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/ort/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+      <ResourceURL format="image/jpeg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/ort/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
     <Layer>
       <ows:Title>空中写真・衛星画像_2004年～（簡易空中写真）</ows:Title>
@@ -273,11 +273,11 @@
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
-      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/gazo4/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+      <ResourceURL format="image/jpeg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/gazo4/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
     <Layer>
       <ows:Title>空中写真・衛星画像_1984年～1987年</ows:Title>
@@ -289,11 +289,11 @@
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
-      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/gazo3/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+      <ResourceURL format="image/jpeg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/gazo3/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
     <Layer>
       <ows:Title>空中写真・衛星画像_1979年～1983年</ows:Title>
@@ -305,11 +305,11 @@
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
-      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/gazo2/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+      <ResourceURL format="image/jpeg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/gazo2/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
     <Layer>
       <ows:Title>空中写真・衛星画像_1974年～1978年</ows:Title>
@@ -321,11 +321,11 @@
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
-      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/gazo1/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+      <ResourceURL format="image/jpeg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/gazo1/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
     <Layer>
       <ows:Title>空中写真・衛星画像_1961年～1964年</ows:Title>
@@ -385,11 +385,11 @@
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
-      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho4/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+      <ResourceURL format="image/jpeg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho4/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
     <Layer>
       <ows:Title>空中写真・衛星画像_東日本大震災後正射画像_2012年10月～2013年5月</ows:Title>
@@ -401,11 +401,11 @@
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
-      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho3/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+      <ResourceURL format="image/jpeg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho3/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
     <Layer>
       <ows:Title>空中写真・衛星画像_東日本大震災後正射画像_2011年5月～2012年4月</ows:Title>
@@ -417,11 +417,11 @@
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
-      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho2/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+      <ResourceURL format="image/jpeg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho2/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
     <Layer>
       <ows:Title>空中写真・衛星画像_東日本大震災後正射画像_2011年3月～2011年4月</ows:Title>
@@ -433,11 +433,11 @@
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
-      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
       <TileMatrixSetLink>
         <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho1/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
+      <ResourceURL format="image/jpeg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho1/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
     <Layer>
       <ows:Title>空中写真・衛星画像_全国ランドサットモザイク画像</ows:Title>
