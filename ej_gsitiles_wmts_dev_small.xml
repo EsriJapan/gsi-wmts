@@ -369,7 +369,6 @@
         <MatrixHeight>1048576</MatrixHeight>
     </TileMatrix>
     </TileMatrixSet>
-  </TileMatrixSet>  
 
     <TileMatrixSet>
         <ows:Identifier>google3857</ows:Identifier>
