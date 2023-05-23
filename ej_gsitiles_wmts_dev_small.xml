@@ -173,7 +173,7 @@
 
   <TileMatrixSet>   
    <ows:Identifier>z2to18edit</ows:Identifier>   
-    <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18.3:3857</ows:SupportedCRS>
+    <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18:3:3857</ows:SupportedCRS>
     <TileMatrix>
         <ows:Identifier>2</ows:Identifier>
         <ScaleDenominator>139770566.007</ScaleDenominator>
@@ -327,7 +327,7 @@
         <MatrixWidth>262144</MatrixWidth>
         <MatrixHeight>262144</MatrixHeight>
     </TileMatrix>
-
+    </TileMatrixSet>
     <TileMatrixSet>
         <ows:Identifier>google3857</ows:Identifier>
         <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">
