@@ -3,7 +3,7 @@
   <Layer>   
    <ows:Title>標準地図</ows:Title>   
    <ows:Identifier>std</ows:Identifier>   
-   <Style isDefault="true">    
+   <Style isDefault="true">
     <ows:Identifier>default</ows:Identifier>    
    </Style>   
    <Format>image/png</Format>   
@@ -14,11 +14,11 @@
   </Layer>  
   <TileMatrixSet>   
    <ows:Identifier>z2to18</ows:Identifier>
-   <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">
+   <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18:3:3857">
     <ows:LowerCorner>977650 5838030</ows:LowerCorner>
     <ows:UpperCorner>1913530 6281290</ows:UpperCorner>
    </ows:BoundingBox>
-   <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18:3.3857</ows:SupportedCRS>
+   <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18:3:3857</ows:SupportedCRS>
    <TileMatrix>    
     <ows:Identifier>2</ows:Identifier>    
     <ScaleDenominator>139770566.0071794</ScaleDenominator>    
