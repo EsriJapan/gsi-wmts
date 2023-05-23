@@ -8,7 +8,7 @@
    </Style>   
    <Format>image/png</Format>   
    <TileMatrixSetLink>    
-    <TileMatrixSet>z2to18edit</TileMatrixSet>    
+    <TileMatrixSet>google3857</TileMatrixSet>    
    </TileMatrixSetLink>   
    <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/std/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
   </Layer>  
