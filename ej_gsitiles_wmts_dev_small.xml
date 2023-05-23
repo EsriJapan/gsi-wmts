@@ -173,7 +173,7 @@
 
   <TileMatrixSet>   
    <ows:Identifier>z2to18edit</ows:Identifier>   
-    <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18.3:3857</ows:SupportedCRS>
+    <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18:3:3857</ows:SupportedCRS>
     <TileMatrix>
         <ows:Identifier>2</ows:Identifier>
         <ScaleDenominator>139770566.007</ScaleDenominator>
