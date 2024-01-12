@@ -308,6 +308,22 @@
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/did2010/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>
+    <Layer>   
+     <ows:Title>令和6年能登半島地震 珠洲地区　正射画像（2024年1月5日撮影）</ows:Title>   
+     <ows:Identifier>did2015</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    
+       <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/20240102_noto_suzu_0105do/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
  </Contents> 
 </Capabilities>
