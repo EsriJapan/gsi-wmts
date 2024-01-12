@@ -8,7 +8,7 @@
          <ows:Keyword>Japan</ows:Keyword>   
       </ows:Keywords>  
       <ows:ServiceType>OGC WMTS</ows:ServiceType>  
-      <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>  
+      <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
       <ows:Fees>none</ows:Fees>  
       <ows:AccessConstraints>地理院タイルは、国土地理院コンテンツ利用規約（https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html）に従って利用できます。
 ご利用にあたっては、「地理院タイルのご利用について（https://maps.gsi.go.jp/help/use.html）」をご覧ください。</ows:AccessConstraints>  
