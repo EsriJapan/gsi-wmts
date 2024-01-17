@@ -219,23 +219,8 @@
         <MatrixHeight>262144</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
-    <Layer>   
-     <ows:Title>洪水浸水想定区域</ows:Title>   
-     <ows:Identifier>01_flood_l2_shinsuishin_data</ows:Identifier>   
-     <ows:WGS84BoundingBox>    
-       <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    
-       <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>    
-     </ows:WGS84BoundingBox>   
-     <Styles isDefault="true">    
-       <ows:Identifier>default</ows:Identifier>    
-     </Styles>   
-     <Format>image/png</Format>   
-     <TileMatrixSetLink>    
-       <TileMatrixSet>z0to20</TileMatrixSet>    
-     </TileMatrixSetLink>   
-     <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_data/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
-    </Layer>
-    <Layer>   
+ 
+      <Layer>   
      <ows:Title>洪水浸水想定区域（最大想定区域）</ows:Title>   
      <ows:Identifier>01_flood_l2_shinsuishin_data</ows:Identifier>   
      <Style isDefault="true">    
@@ -249,9 +234,9 @@
     </Layer>  
    <Layer>   
      <ows:Title>洪水浸水想定区域（計画規模）</ows:Title>   
-     <ows:Identifier>01_flood_l1_shinsuishin_newlegend_data</ows:Identifier>   
+     <ows:Identifier>01_flood_l2_shinsuishin_data</ows:Identifier>   
      <Style isDefault="true">    
-       <ows:Identifier>default</ows:Identifier>    
+       <ows:Identifier>01_flood_l1_shinsuishin_newlegend_data</ows:Identifier>    
      </Style>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
@@ -260,9 +245,9 @@
      <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/01_flood_l1_shinsuishin_newlegend_data/{TileMatrix}/{TileCol}/{TileRow}.png"/> 
    <Layer>   
      <ows:Title>洪水浸水想定区域（浸水継続時間）</ows:Title>   
-     <ows:Identifier>01_flood_l2_keizoku_data</ows:Identifier>   
+     <ows:Identifier>01_flood_l2_shinsuishin_data</ows:Identifier>   
      <Style isDefault="true">    
-       <ows:Identifier>default</ows:Identifier>    
+       <ows:Identifier>01_flood_l2_keizoku_data</ows:Identifier>    
      </Style>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
@@ -272,15 +257,15 @@
     </Layer> 
     <Layer>   
      <ows:Title>洪水浸水想定区域（家屋倒壊等氾濫想定区域）</ows:Title>   
-     <ows:Identifier>01_flood_l2_kaokutoukai_hanran_data</ows:Identifier>   
+     <ows:Identifier>01_flood_l2_shinsuishin_data</ows:Identifier>   
      <Style isDefault="true">    
-       <ows:Identifier>default</ows:Identifier>    
+       <ows:Identifier>01_flood_l2_kaokutoukai_hanran_data</ows:Identifier>    
      </Style>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
       <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
-     <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/01_flood_l2_kaokutoukai_hanran_data/{TileMatrix}/{TileCol}/{TileRow}.png"/>    
+     <ResourceURL format="image/png" resourceType="tile" template="https:///disaportaldata.gsi.go.jp/raster/01_flood_l2_kaokutoukai_hanran_data/{TileMatrix}/{TileCol}/{TileRow}.png"/>    
     </Layer>  
   </Contents>
 </Capabilities>
