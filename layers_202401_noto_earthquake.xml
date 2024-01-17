@@ -272,7 +272,7 @@
    </Layer>  
    <Layer>   
      <ows:Title>令和6年能登半島地震 輪島東地区　正射画像（2024年1月14日撮影）</ows:Title>   
-     <ows:Identifier>20240102_noto_suzu_0105do</ows:Identifier>   
+     <ows:Identifier>20240102noto_wazimahigashi_0114do</ows:Identifier>   
      <ows:WGS84BoundingBox>    
        <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    
        <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>    
@@ -288,7 +288,7 @@
    </Layer> 
    <Layer>   
      <ows:Title>令和6年能登半島地震 穴水地区　正射画像（2024年1月14日撮影）</ows:Title>   
-     <ows:Identifier>20240102_noto_suzu_0105do</ows:Identifier>   
+     <ows:Identifier>20240102noto_anamizu_0114do</ows:Identifier>   
      <ows:WGS84BoundingBox>    
        <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    
        <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>    
