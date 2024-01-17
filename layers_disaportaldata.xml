@@ -219,19 +219,8 @@
         <MatrixHeight>262144</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
+    
    <Layer>   
-     <ows:Title>洪水浸水想定区域（最大想定区域）</ows:Title>   
-     <ows:Identifier>01_flood_l2_shinsuishin_data</ows:Identifier>   
-     <Style isDefault="true">    
-       <ows:Identifier>default</ows:Identifier>    
-     </Style>   
-     <Format>image/png</Format>   
-     <TileMatrixSetLink>    
-      <TileMatrixSet>z2to18</TileMatrixSet>    
-     </TileMatrixSetLink>   
-     <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_data/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
-    </Layer>  
-      <Layer>   
      <ows:Title>洪水浸水想定区域（最大想定区域）</ows:Title>   
      <ows:Identifier>01_flood_l2_shinsuishin_data</ows:Identifier>   
      <Style isDefault="true">    
