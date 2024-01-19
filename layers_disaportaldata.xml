@@ -256,7 +256,7 @@
          </TileMatrix>   
       </TileMatrixSet>  
  
-      <Layer>   
+   <Layer>   
      <ows:Title>洪水浸水想定区域（最大想定区域）</ows:Title>   
      <ows:Identifier>01_flood_l2_shinsuishin_data</ows:Identifier>   
      <Style isDefault="true">    
@@ -279,7 +279,8 @@
       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/01_flood_l1_shinsuishin_newlegend_data/{TileMatrix}/{TileCol}/{TileRow}.png"/> 
-   <Layer>   
+    </Layer> 
+    <Layer>   
      <ows:Title>洪水浸水想定区域（浸水継続時間）</ows:Title>   
      <ows:Identifier>01_flood_l2_keizoku_data</ows:Identifier>   
      <Style isDefault="true">    
