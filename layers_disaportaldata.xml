@@ -301,7 +301,7 @@
      <TileMatrixSetLink>    
       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
-     <ResourceURL format="image/png" resourceType="tile" template="https:///disaportaldata.gsi.go.jp/raster/01_flood_l2_kaokutoukai_hanran_data/{TileMatrix}/{TileCol}/{TileRow}.png"/>    
+     <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/01_flood_l2_kaokutoukai_hanran_data/{TileMatrix}/{TileCol}/{TileRow}.png"/>    
     </Layer>  
   </Contents>
 </Capabilities>
