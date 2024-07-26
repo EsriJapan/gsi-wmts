@@ -287,6 +287,21 @@
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/20240419bungosuido_ainan_0418do/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>
-
+    <Layer>   
+     <ows:Title>浸水推定図 最上川水系最上川（令和6年7月25日からの大雨）</ows:Title>   
+     <ows:Identifier>20240726rain_mogamigawa_0726dansaizu</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    
+       <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/20240726rain_mogamigawa_0726dansaizu/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>
  </Contents> 
 </Capabilities>
