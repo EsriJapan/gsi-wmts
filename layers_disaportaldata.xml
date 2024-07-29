@@ -303,19 +303,6 @@
       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/01_flood_l2_keizoku_data/{TileMatrix}/{TileCol}/{TileRow}.png"/>    
-    </Layer> 
-    <Layer>   
-     <ows:Title>津波浸水想定区域（統合版）</ows:Title>   
-     <ows:Identifier>04_tsunami_newlegend_data</ows:Identifier>   
-     <Style isDefault="true">    
-       <ows:Identifier>default</ows:Identifier>    
-     </Style>   
-     <Format>image/png</Format>   
-     <TileMatrixSetLink>    
-      <TileMatrixSet>z0to20</TileMatrixSet>    
-     </TileMatrixSetLink>   
-     <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/04_tsunami_newlegend_data/{TileMatrix}/{TileCol}/{TileRow}.png"/>    
-    </Layer> 
-    
+    </Layer>     
   </Contents>
 </Capabilities>
