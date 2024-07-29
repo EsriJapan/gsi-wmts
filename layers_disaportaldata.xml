@@ -280,18 +280,18 @@
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_data/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
     </Layer>  
-    <Layer>
-      <ows:Title>洪水浸水想定区域（計画規模（現在の凡例））</ows:Title>
-      <ows:Identifier>flood_l1_shinsuishin_newlegend</ows:Identifier>
-      <Style isDefault="true">
-      <ows:Identifier>default</ows:Identifier>
-      </Style>
-      <Format>image/png</Format>
-      <TileMatrixSetLink>
-      <TileMatrixSet>z2to17</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/01_flood_l1_shinsuishin_newlegend_data/{TileMatrix}/{TileCol}/{TileRow}.png"/>
-    </Layer>
+<Layer>
+<ows:Title>洪水浸水想定区域（計画規模（現在の凡例））_国管理河川</ows:Title>
+<ows:Identifier>flood_l1_shinsuishin_newlegend_kuni</ows:Identifier>
+<Style isDefault="true">
+<ows:Identifier>default</ows:Identifier>
+</Style>
+<Format>image/png</Format>
+<TileMatrixSetLink>
+<TileMatrixSet>z2to17</TileMatrixSet>
+</TileMatrixSetLink>
+<ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/01_flood_l1_shinsuishin_newlegend_kuni_data/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+</Layer>
     <Layer>   
      <ows:Title>洪水浸水想定区域（浸水継続時間）</ows:Title>   
      <ows:Identifier>01_flood_l2_keizoku_data</ows:Identifier>   
