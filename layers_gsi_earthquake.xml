@@ -254,7 +254,24 @@
             <MatrixHeight>1048576</MatrixHeight>    
          </TileMatrix>   
       </TileMatrixSet>
-
+      
+    <Layer>   
+     <ows:Title>令和6年宮崎県日向灘を震源とする地震 日南地区 正射画像（速報）（2024年8月9日撮影）</ows:Title>   
+     <ows:Identifier>20240809hyuganada_nichinan_0809do_sokuho</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    
+       <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/20240809hyuganada_nichinan_0809do_sokuho/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>
+      
     <Layer>   
      <ows:Title>令和6年豊後水道の地震 宿毛地区　正射画像（2024年4月18日撮影）</ows:Title>   
      <ows:Identifier>20240419bungosuido_sukumo_0418do</ows:Identifier>   
