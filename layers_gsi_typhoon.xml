@@ -288,7 +288,7 @@
      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/20240923rain_wajimatobu_0924do_sokuho/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>
       
-   <Layer>   
+    <Layer>   
      <ows:Title>ここにタイトルを入力</ows:Title>   
      <ows:Identifier>xml内で一意のID (urlのidentiferでよさそう)</ows:Identifier>   
      <ows:WGS84BoundingBox>    
