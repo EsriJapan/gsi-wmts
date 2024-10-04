@@ -287,6 +287,22 @@
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/20240923rain_wajimatobu_0924do_sokuho/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>
+    <Layer>   
+     <ows:Title>輪島西部地区 正射画像（速報）（2024年9月24日撮影）</ows:Title>   
+     <ows:Identifier>20240923rain_wajimaseibu_0924do_sokuho</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    
+       <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/20240923rain_wajimaseibu_0924do_sokuho/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>
       
     <Layer>   
      <ows:Title>ここにタイトルを入力</ows:Title>   
