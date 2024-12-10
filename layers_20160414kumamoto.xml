@@ -60,7 +60,201 @@
       </ows:Operation>  
    </ows:OperationsMetadata> 
    <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/layers_20160414kumamoto.xml"/> 
-   <Contents>  
+   <Contents>
+    <TileMatrixSet>   
+        <ows:Identifier>z0to20</ows:Identifier>   
+        <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18:3:3857</ows:SupportedCRS>
+        <TileMatrix>    
+        <ows:Identifier>0</ows:Identifier>    
+        <ScaleDenominator>559082264.0287178</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>1</MatrixWidth>    
+        <MatrixHeight>1</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>1</ows:Identifier>    
+        <ScaleDenominator>279541132.0143589</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>2</MatrixWidth>    
+        <MatrixHeight>2</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>2</ows:Identifier>    
+        <ScaleDenominator>139770566.0071794</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>4</MatrixWidth>    
+        <MatrixHeight>4</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>3</ows:Identifier>    
+        <ScaleDenominator>69885283.00358972</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>8</MatrixWidth>    
+        <MatrixHeight>8</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>4</ows:Identifier>    
+        <ScaleDenominator>34942641.50179486</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>16</MatrixWidth>    
+        <MatrixHeight>16</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>5</ows:Identifier>    
+        <ScaleDenominator>17471320.75089743</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>32</MatrixWidth>    
+        <MatrixHeight>32</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>6</ows:Identifier>    
+        <ScaleDenominator>8735660.375448715</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>64</MatrixWidth>    
+        <MatrixHeight>64</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>7</ows:Identifier>    
+        <ScaleDenominator>4367830.187724357</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>128</MatrixWidth>    
+        <MatrixHeight>128</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>8</ows:Identifier>    
+        <ScaleDenominator>2183915.093862179</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>256</MatrixWidth>    
+        <MatrixHeight>256</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>9</ows:Identifier>    
+        <ScaleDenominator>1091957.546931089</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>512</MatrixWidth>    
+        <MatrixHeight>512</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>10</ows:Identifier>    
+        <ScaleDenominator>545978.7734655447</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>1024</MatrixWidth>    
+        <MatrixHeight>1024</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>11</ows:Identifier>    
+        <ScaleDenominator>272989.3867327723</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>2048</MatrixWidth>    
+        <MatrixHeight>2048</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>12</ows:Identifier>    
+        <ScaleDenominator>136494.6933663862</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>4096</MatrixWidth>    
+        <MatrixHeight>4096</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>13</ows:Identifier>    
+        <ScaleDenominator>68247.34668319309</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>8192</MatrixWidth>    
+        <MatrixHeight>8192</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>14</ows:Identifier>    
+        <ScaleDenominator>34123.67334159654</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>16384</MatrixWidth>    
+        <MatrixHeight>16384</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>15</ows:Identifier>    
+        <ScaleDenominator>17061.83667079827</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>32768</MatrixWidth>    
+        <MatrixHeight>32768</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>16</ows:Identifier>    
+        <ScaleDenominator>8530.918335399136</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>65536</MatrixWidth>    
+        <MatrixHeight>65536</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>17</ows:Identifier>    
+        <ScaleDenominator>4265.459167699568</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>131072</MatrixWidth>    
+        <MatrixHeight>131072</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>18</ows:Identifier>    
+        <ScaleDenominator>2132.729583849784</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>262144</MatrixWidth>    
+        <MatrixHeight>262144</MatrixHeight>    
+        </TileMatrix>
+        <TileMatrix>    
+        <ows:Identifier>19</ows:Identifier>    
+        <ScaleDenominator>1066.364791924892</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>524288</MatrixWidth>    
+        <MatrixHeight>524288</MatrixHeight>    
+        </TileMatrix>   
+        <TileMatrix>    
+        <ows:Identifier>20</ows:Identifier>    
+        <ScaleDenominator>533.182395962446</ScaleDenominator>    
+        <TopLeftCorner>-20037508.3427892 20037508.3427892</TopLeftCorner>    
+        <TileWidth>256</TileWidth>    
+        <TileHeight>256</TileHeight>    
+        <MatrixWidth>1048576</MatrixWidth>    
+        <MatrixHeight>1048576</MatrixHeight>    
+        </TileMatrix>   
+    </TileMatrixSet>
+
       <TileMatrixSet>   
          <ows:Identifier>z2to18</ows:Identifier>   
          <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18:3:3857</ows:SupportedCRS>   
@@ -230,7 +424,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/fukkyukizu/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -246,7 +440,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_zahyo_param/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -262,7 +456,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_hyoko_param/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -278,7 +472,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0415dol1/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -294,7 +488,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0415dol2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -310,7 +504,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0415dol3/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -326,7 +520,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0416dol1/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -342,7 +536,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0416dol2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -358,7 +552,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0416dol3/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -374,7 +568,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0416dol4/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -390,7 +584,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0416dol5/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -406,7 +600,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0416dol6/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -422,7 +616,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0416dol7/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -438,7 +632,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0419dol2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -454,7 +648,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0419dol6/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -470,7 +664,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol06/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -486,7 +680,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol01/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -502,7 +696,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol02/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -518,7 +712,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol03/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -534,7 +728,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol04/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -550,7 +744,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol05/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -566,7 +760,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol07/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -582,7 +776,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol08/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -598,7 +792,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol09/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -614,7 +808,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol10/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -630,7 +824,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol11/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -646,7 +840,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0429dol1/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -662,7 +856,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0429dol2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -678,7 +872,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0530dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -694,7 +888,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0531dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -710,7 +904,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0705dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -726,7 +920,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0724dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -742,7 +936,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0724dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -758,7 +952,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0705dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -774,7 +968,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0531dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -790,7 +984,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0530dol/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -806,7 +1000,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0429dol1/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -822,7 +1016,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0429dol2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -838,7 +1032,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol01/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -854,7 +1048,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol02/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -870,7 +1064,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol03/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -886,7 +1080,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol04/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -902,7 +1096,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol05/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -918,7 +1112,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol06/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -934,7 +1128,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol07/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -950,7 +1144,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol08/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -966,7 +1160,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol09/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -982,7 +1176,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol10/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -998,7 +1192,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0420dol11/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1014,7 +1208,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0419dol2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1030,7 +1224,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0419dol6/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1046,7 +1240,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0416dol1/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1062,7 +1256,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0416dol2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1078,7 +1272,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0416dol3/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1094,7 +1288,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0416dol4/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1110,7 +1304,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0416dol5/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1126,7 +1320,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0416dol6/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1142,7 +1336,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0416dol7/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1158,7 +1352,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0415dol1/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1174,7 +1368,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0415dol2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1190,7 +1384,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_0415dol3/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1202,7 +1396,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/ort/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>   
    </Layer>  
@@ -1218,7 +1412,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/airphoto/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1234,7 +1428,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_relief_after/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1250,7 +1444,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_relief_before/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1266,7 +1460,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_relief_d/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1282,7 +1476,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160414kumamoto_relief_d2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
@@ -1298,7 +1492,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z2to18</TileMatrixSet>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/afm/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
