@@ -4903,7 +4903,7 @@
    </Layer>  
    <Layer>   
      <ows:Title>標高タイル（基盤地図情報数値標高モデル）5A</ows:Title>   
-     <ows:Identifier>dem5a_png</ows:Identifier>   
+     <ows:Identifier>dem5a_area</ows:Identifier>   
        <Style isDefault="true">    
          <ows:Identifier>default</ows:Identifier>    
        </Style>   
@@ -4911,7 +4911,7 @@
      <TileMatrixSetLink>    
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
-     <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/dem5a_png/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/dem5a_area/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer> 
    <Layer>   
      <ows:Title>地図の更新情報や提供地域等_基盤地図情報数値標高モデルの更新情報_10mメッシュDEM（火山基本図）の提供地域</ows:Title>   
