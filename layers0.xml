@@ -455,6 +455,10 @@
     <Layer>
       <ows:Title>English</ows:Title>
       <ows:Identifier>english</ows:Identifier>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>120 20</ows:LowerCorner>
+        <ows:UpperCorner>154 48.9224992638</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
