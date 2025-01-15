@@ -77,6 +77,7 @@
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/english/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
+      
 <TileMatrixSet>
 <ows:Identifier>z2to18</ows:Identifier>
 <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18:3:3857</ows:SupportedCRS>
@@ -234,6 +235,7 @@
 <MatrixHeight>262144</MatrixHeight>
 </TileMatrix>
 </TileMatrixSet>
+      
 <TileMatrixSet>
 <ows:Identifier>z5to14</ows:Identifier>
 <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18:3:3857</ows:SupportedCRS>
@@ -328,6 +330,7 @@
 <MatrixHeight>16384</MatrixHeight>
 </TileMatrix>
 </TileMatrixSet>
+      
 <TileMatrixSet>
 <ows:Identifier>z5to8</ows:Identifier>
 <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18:3:3857</ows:SupportedCRS>
