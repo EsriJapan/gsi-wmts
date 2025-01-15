@@ -9,7 +9,7 @@
 </Style>
 <Format>image/png</Format>
 <TileMatrixSetLink>
-<TileMatrixSet>z2to18</TileMatrixSet>
+<TileMatrixSet>z0to20</TileMatrixSet>
 </TileMatrixSetLink>
 <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/std/{TileMatrix}/{TileCol}/{TileRow}.png"/>
 </Layer>
@@ -21,7 +21,7 @@
 </Style>
 <Format>image/png</Format>
 <TileMatrixSetLink>
-<TileMatrixSet>z2to18</TileMatrixSet>
+<TileMatrixSet>z0to20</TileMatrixSet>
 </TileMatrixSetLink>
 <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/pale/{TileMatrix}/{TileCol}/{TileRow}.png"/>
 </Layer>
@@ -33,7 +33,7 @@
 </Style>
 <Format>image/png</Format>
 <TileMatrixSetLink>
-<TileMatrixSet>z5to14</TileMatrixSet>
+<TileMatrixSet>z0to20</TileMatrixSet>
 </TileMatrixSetLink>
 <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/blank/{TileMatrix}/{TileCol}/{TileRow}.png"/>
 </Layer>
@@ -57,26 +57,10 @@
 </Style>
 <Format>image/jpeg</Format>
 <TileMatrixSetLink>
-<TileMatrixSet>z2to18</TileMatrixSet>
+<TileMatrixSet>z0to20</TileMatrixSet>
 </TileMatrixSetLink>
 <ResourceURL format="image/jpeg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
 </Layer>
-      <Layer>
-      <ows:Title>English</ows:Title>
-      <ows:Identifier>english</ows:Identifier>
-      <ows:WGS84BoundingBox>    
-       <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    
-       <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>    
-     </ows:WGS84BoundingBox> 
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Format>image/png</Format>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/english/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
       
 <TileMatrixSet>   
         <ows:Identifier>z0to20</ows:Identifier>   
