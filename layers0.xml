@@ -460,9 +460,9 @@
       </Styles>
       <Format>image/png</Format>
       <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
+        <TileMatrixSet>z0to20</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/english/{TileMatrix}/{TileCol}/{TileRow}.png" />      
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/english/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>写真</ows:Title>
