@@ -61,6 +61,18 @@
 </TileMatrixSetLink>
 <ResourceURL format="image/jpeg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
 </Layer>
+      <Layer>
+      <ows:Title>English</ows:Title>
+      <ows:Identifier>english</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z0to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/english/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
 <TileMatrixSet>
 <ows:Identifier>z2to18</ows:Identifier>
 <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18:3:3857</ows:SupportedCRS>
