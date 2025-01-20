@@ -157,7 +157,79 @@
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/did2010/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>
-         <TileMatrixSet>   
+   <Layer>   
+   <ows:Title>その他_他機関の情報_災害リスク情報（重ねるハザードマップ）_洪水浸水想定区域_洪水浸水想定区域（想定最大規模）</ows:Title>   
+   <ows:Identifier>01_flood_l2_shinsuishin_data</ows:Identifier>   
+   <Style isDefault="true">    
+    <ows:Identifier>default</ows:Identifier>    
+   </Style>   
+   <Format>image/png</Format>   
+   <TileMatrixSetLink>    
+    <TileMatrixSet>z0to20</TileMatrixSet>    
+   </TileMatrixSetLink>   
+   <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_data/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+  </Layer>  
+  <Layer>   
+   <ows:Title>その他_他機関の情報_災害リスク情報（重ねるハザードマップ）_洪水浸水想定区域_洪水浸水想定区域（計画規模（現在の凡例））</ows:Title>   
+   <ows:Identifier>01_flood_l1_shinsuishin_newlegend_data</ows:Identifier>   
+   <Style isDefault="true">    
+    <ows:Identifier>default</ows:Identifier>    
+   </Style>   
+   <Format>image/png</Format>   
+   <TileMatrixSetLink>    
+    <TileMatrixSet>z0to20</TileMatrixSet>    
+   </TileMatrixSetLink>   
+   <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/01_flood_l1_shinsuishin_newlegend_data/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+  </Layer>  
+  <Layer>   
+   <ows:Title>その他_他機関の情報_災害リスク情報（重ねるハザードマップ）_津波浸水想定（想定最大規模）</ows:Title>   
+   <ows:Identifier>04_tsunami_newlegend_data</ows:Identifier>   
+   <Style isDefault="true">    
+    <ows:Identifier>default</ows:Identifier>    
+   </Style>   
+   <Format>image/png</Format>   
+   <TileMatrixSetLink>    
+    <TileMatrixSet>z0to20</TileMatrixSet>    
+   </TileMatrixSetLink>   
+   <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/04_tsunami_newlegend_data/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+  </Layer>  
+  <Layer>   
+   <ows:Title>その他_他機関の情報_災害リスク情報（重ねるハザードマップ）_土砂災害警戒区域等_急傾斜地の崩壊&lt;br&gt;(黄は警戒区域、赤は特別警戒区域)</ows:Title>   
+   <ows:Identifier>05_kyukeishakeikaikuiki</ows:Identifier>   
+   <Style isDefault="true">    
+    <ows:Identifier>default</ows:Identifier>    
+   </Style>   
+   <Format>image/png</Format>   
+   <TileMatrixSetLink>    
+    <TileMatrixSet>z0to20</TileMatrixSet>    
+   </TileMatrixSetLink>   
+   <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+  </Layer>  
+  <Layer>   
+   <ows:Title>その他_他機関の情報_災害リスク情報（重ねるハザードマップ）_土砂災害警戒区域等_土石流&lt;br&gt;(黄は警戒区域、赤は特別警戒区域)</ows:Title>   
+   <ows:Identifier>05_dosekiryukeikaikuiki</ows:Identifier>   
+   <Style isDefault="true">    
+    <ows:Identifier>default</ows:Identifier>    
+   </Style>   
+   <Format>image/png</Format>   
+   <TileMatrixSetLink>    
+    <TileMatrixSet>z0to20</TileMatrixSet>    
+   </TileMatrixSetLink>   
+   <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+  </Layer>  
+  <Layer>   
+   <ows:Title>その他_他機関の情報_災害リスク情報（重ねるハザードマップ）_土砂災害警戒区域等_地すべり&lt;br&gt;(黄は警戒区域、赤は特別警戒区域)</ows:Title>   
+   <ows:Identifier>05_jisuberikeikaikuiki</ows:Identifier>   
+   <Style isDefault="true">    
+    <ows:Identifier>default</ows:Identifier>    
+   </Style>   
+   <Format>image/png</Format>   
+   <TileMatrixSetLink>    
+    <TileMatrixSet>z0to20</TileMatrixSet>    
+   </TileMatrixSetLink>   
+   <ResourceURL format="image/png" resourceType="tile" template="https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+  </Layer>   
+   <TileMatrixSet>   
          <ows:Identifier>z2to18</ows:Identifier>   
          <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18:3:3857</ows:SupportedCRS>   
          <TileMatrix>    
