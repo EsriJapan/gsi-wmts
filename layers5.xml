@@ -435,24 +435,7 @@
     <TileMatrixSet>z0to20</TileMatrixSet>    
    </TileMatrixSetLink>   
    <ResourceURL format="image/png" resourceType="tile" template="https://nlftp.mlit.go.jp/kokjo/inspect/tile/landclassification/land_history/landuseclassification/landuseclassification2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
-  </Layer>
-      
-   <Layer>   
-     <ows:Title>他機関の情報_人口集中地区 平成22年（総務省統計局）</ows:Title>   
-     <ows:Identifier>did2010</ows:Identifier>   
-     <ows:WGS84BoundingBox>    
-       <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    
-       <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>    
-     </ows:WGS84BoundingBox>   
-     <Styles isDefault="true">    
-       <ows:Identifier>default</ows:Identifier>    
-     </Styles>   
-     <Format>image/png</Format>   
-     <TileMatrixSetLink>    
-       <TileMatrixSet>z0to20</TileMatrixSet>    
-     </TileMatrixSetLink>   
-     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/did2010/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
-   </Layer>  
+  </Layer>  
       
    <Layer>   
      <ows:Title>土地の特徴を示した地図_火山土地条件図</ows:Title>   
@@ -469,8 +452,7 @@
        <TileMatrixSet>z0to20</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/vlcd/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
-   </Layer>  
-   
+   </Layer>     
    <Layer>   
    <ows:Title>土地の成り立ち・土地利用_活断層図_活断層図（都市圏活断層図）</ows:Title>   
    <ows:Identifier>afm</ows:Identifier>   
@@ -494,7 +476,19 @@
     <TileMatrixSet>z0to20</TileMatrixSet>    
    </TileMatrixSetLink>   
    <ResourceURL format="image/png" resourceType="tile" template="https://jmapweb3v.bosai.go.jp/map/xyz/landslide/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
-  </Layer>        
+  </Layer>
+  <Layer>   
+   <ows:Title>他機関の情報_人口集中地区 令和2年（総務省統計局）</ows:Title>   
+   <ows:Identifier>did2020</ows:Identifier>   
+   <Style isDefault="true">    
+    <ows:Identifier>default</ows:Identifier>    
+   </Style>   
+   <Format>image/png</Format>   
+   <TileMatrixSetLink>    
+    <TileMatrixSet>z0to20</TileMatrixSet>    
+   </TileMatrixSetLink>   
+   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/did2020/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+  </Layer>   
     <Layer>   
      <ows:Title>他機関の情報_人口集中地区 平成27年（総務省統計局）</ows:Title>   
      <ows:Identifier>did2015</ows:Identifier>   
