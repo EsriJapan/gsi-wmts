@@ -425,7 +425,7 @@
    <ResourceURL format="image/png" resourceType="tile" template="https://nlftp.mlit.go.jp/kokjo/inspect/tile/landclassification/land_history/landuseclassification/landuseclassification1/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
   </Layer>  
   <Layer>   
-   <ows:Title>土地分類基本調査（土地履歴調査）－国土政策局_土地利用分類図_土地利用分類（第二期：昭和期）</ows:Title>   
+   <ows:Title>その他_他機関の情報_土地分類基本調査（土地履歴調査）－国土政策局_土地利用分類図_土地利用分類（第二期：昭和期）</ows:Title>   
    <ows:Identifier>landuseclassification2</ows:Identifier>   
    <Style isDefault="true">    
     <ows:Identifier>default</ows:Identifier>    
@@ -435,7 +435,7 @@
     <TileMatrixSet>z0to20</TileMatrixSet>    
    </TileMatrixSetLink>   
    <ResourceURL format="image/png" resourceType="tile" template="https://nlftp.mlit.go.jp/kokjo/inspect/tile/landclassification/land_history/landuseclassification/landuseclassification2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
-  </Layer>  
+  </Layer>
       
    <Layer>   
      <ows:Title>他機関の情報_人口集中地区 平成22年（総務省統計局）</ows:Title>   
