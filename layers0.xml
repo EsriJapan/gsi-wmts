@@ -436,18 +436,18 @@
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/pale/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
-    <Layer>
-      <ows:Title>白地図</ows:Title>
-      <ows:Identifier>blank</ows:Identifier>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Format>image/png</Format>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z0to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/blank/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
+<Layer>
+<ows:Title>白地図</ows:Title>
+<ows:Identifier>blank</ows:Identifier>
+<Style isDefault="true">
+<ows:Identifier>default</ows:Identifier>
+</Style>
+<Format>image/png</Format>
+<TileMatrixSetLink>
+<TileMatrixSet>z0to20</TileMatrixSet>
+</TileMatrixSetLink>
+<ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/blank/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+</Layer>
     <Layer>
       <ows:Title>English</ows:Title>
       <ows:Identifier>english</ows:Identifier>
