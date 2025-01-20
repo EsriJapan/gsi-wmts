@@ -217,9 +217,9 @@
         <TileHeight>256</TileHeight>
         <MatrixWidth>262144</MatrixWidth>
         <MatrixHeight>262144</MatrixHeight>
-      </TileMatrix>      
+      </TileMatrix>
     </TileMatrixSet>
-      <TileMatrixSet>   
+    <TileMatrixSet>   
         <ows:Identifier>z0to20</ows:Identifier>   
         <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18:3:3857</ows:SupportedCRS>
         <TileMatrix>    
