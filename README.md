@@ -10,7 +10,7 @@ WMTS の URL は https://esrijapan.github.io/gsi-wmts/{XML ファイル名} で�
 例：https://esrijapan.github.io/gsi-wmts/gsitiles_wmts_light.xml
 
 各 XML に含まれる内容は、それぞれの URL ページをご確認ください。レイヤーのタイトルは以下のタグで囲まれています。
-<<Layer><<ows:Title>タイトル</ows:Title></Layer>
+ <Layer> <ows:Title>タイトル</ows:Title></Layer>
 
 ArcGIS Desktop への接続方法については以下のページをご覧ください。
 ※Esri 製品サポート サイトへのログインが必要です。
