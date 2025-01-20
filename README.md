@@ -7,7 +7,7 @@
 WMTS の URL を ArcGIS 製品に接続すると各レイヤーをマップに追加することができます。
 
 WMTS の URL は https://esrijapan.github.io/gsi-wmts/{XML ファイル名} です。{XML ファイル名} は本ページ掲載の XML ファイル名です。
-例：https://esrijapan.github.io/gsi-wmts/layers0.xml
+例：https://esrijapan.github.io/gsi-wmts/gsitiles_wmts_light.xml
 
 各 XML に含まれる内容は、それぞれの URL ページをご確認ください。レイヤーのタイトルは以下のタグで囲まれています。
 <Layer><ows:Title>タイトル</ows:Title></Layer>
