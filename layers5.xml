@@ -158,6 +158,30 @@
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/did2010/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>
    <Layer>   
+   <ows:Title>その他_他機関の情報_人口集中地区 令和2年（総務省統計局）</ows:Title>   
+   <ows:Identifier>did2020</ows:Identifier>   
+   <Style isDefault="true">    
+    <ows:Identifier>default</ows:Identifier>    
+   </Style>   
+   <Format>image/png</Format>   
+   <TileMatrixSetLink>    
+    <TileMatrixSet>z0to20</TileMatrixSet>    
+   </TileMatrixSetLink>   
+   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/did2020/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+  </Layer>
+   <Layer>   
+   <ows:Title>その他_他機関の情報_災害リスク情報（防災科学技術研究所）_確率論的地震動予測地図（今後30年間に震度6弱以上の揺れに見舞われる確率）</ows:Title>   
+   <ows:Identifier>jishindo_yosoku</ows:Identifier>   
+   <Style isDefault="true">    
+    <ows:Identifier>default</ows:Identifier>    
+   </Style>   
+   <Format>image/png</Format>   
+   <TileMatrixSetLink>    
+    <TileMatrixSet>z0to20</TileMatrixSet>    
+   </TileMatrixSetLink>   
+   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/jishindo_yosoku/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+  </Layer> 
+   <Layer>   
    <ows:Title>その他_他機関の情報_災害リスク情報（重ねるハザードマップ）_洪水浸水想定区域_洪水浸水想定区域（想定最大規模）</ows:Title>   
    <ows:Identifier>01_flood_l2_shinsuishin_data</ows:Identifier>   
    <Style isDefault="true">    
