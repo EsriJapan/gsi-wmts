@@ -439,7 +439,7 @@
      </Styles>   
      <Format>image/png</Format>   
      <TileMatrixSetLink>    
-       <TileMatrixSet>z0to20</TileMatrixSet>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/jpg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/toho4/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>   
    </Layer>  
