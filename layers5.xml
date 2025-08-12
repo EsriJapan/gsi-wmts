@@ -69,7 +69,11 @@
    </Style>   
    <Format>image/png</Format>   
    <TileMatrixSetLink>    
-    <TileMatrixSet>z0to20</TileMatrixSet>
+    <TileMatrixSet>z0to20</TileMatrixSet>    
+   </TileMatrixSetLink>   
+   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/experimental_jhj_index/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+  </Layer>  
+      
   <Layer>   
    <ows:Title>その他_他機関の情報_土地分類基本調査（土地履歴調査）－国土政策局_土地利用分類図_土地利用分類（第一期:明治期）</ows:Title>   
    <ows:Identifier>landuseclassification1</ows:Identifier>   
