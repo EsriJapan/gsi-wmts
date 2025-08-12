@@ -60,7 +60,16 @@
       </ows:Operation>  
    </ows:OperationsMetadata> 
    <ServiceMetadataURL xlink:href="https://esrijapan.github.io/gsi-wmts/layers5.xml"/> 
-   <Contents>    
+   <Contents>
+   <Layer>   
+   <ows:Title>その他_ベクトルタイル提供実験_┗住居表示住所の提供範囲</ows:Title>   
+   <ows:Identifier>experimental_jhj_index</ows:Identifier>   
+   <Style isDefault="true">    
+    <ows:Identifier>default</ows:Identifier>    
+   </Style>   
+   <Format>image/png</Format>   
+   <TileMatrixSetLink>    
+    <TileMatrixSet>z0to20</TileMatrixSet>
   <Layer>   
    <ows:Title>その他_他機関の情報_土地分類基本調査（土地履歴調査）－国土政策局_土地利用分類図_土地利用分類（第一期:明治期）</ows:Title>   
    <ows:Identifier>landuseclassification1</ows:Identifier>   
