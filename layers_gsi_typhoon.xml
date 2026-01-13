@@ -305,9 +305,26 @@
      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/20240923rain_wajimaseibu_0924do_sokuho/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>
       
+   <Layer>   
+     <ows:Title>近年の災害_台風・豪雨等_令和2年7月豪雨_浸水推定図_球磨川水系球磨川　人吉市周辺（2020年7月4日13時作成）</ows:Title>   
+     <ows:Identifier>20200703oame_kumagawahitoyoshi_0704dansaizu</ows:Identifier>   
+     <ows:WGS84BoundingBox>    
+       <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    
+       <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>    
+     </ows:WGS84BoundingBox>   
+     <Styles isDefault="true">    
+       <ows:Identifier>default</ows:Identifier>    
+     </Styles>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z0to20</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/20200703oame_kumagawahitoyoshi_0704dansaizu/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer>
+      
     <Layer>   
      <ows:Title>ここにタイトルを入力</ows:Title>   
-     <ows:Identifier>xml内で一意のID (urlのidentiferでよさそう)</ows:Identifier>   
+     <ows:Identifier>xml内で一意のID (urlのidentifer)</ows:Identifier>   
      <ows:WGS84BoundingBox>    
        <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    
        <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>    
