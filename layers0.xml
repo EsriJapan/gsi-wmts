@@ -3,7 +3,7 @@
 <Contents>
       
 <Layer>
-<ows:Title>標準地図</ows:Title>
+<ows:Title>地理院地図</ows:Title>
 <ows:Identifier>std</ows:Identifier>
 <Style isDefault="true">
 <ows:Identifier>default</ows:Identifier>
@@ -566,6 +566,7 @@
 </TileMatrixSet>
 </Contents>
 </Capabilities>
+
 
 
 
