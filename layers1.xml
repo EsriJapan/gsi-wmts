@@ -412,6 +412,20 @@
         <MatrixHeight>1048576</MatrixHeight>    
         </TileMatrix>   
     </TileMatrixSet>
+    
+    <Layer>
+      <ows:Title>地理院地図</ows:Title>
+      <ows:Identifier>std</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/std/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+    </Layer>
+      
     <Layer>
       <ows:Title>空中写真・衛星画像_全国最新写真（シームレス）</ows:Title>
       <ows:Identifier>seamlessphoto</ows:Identifier>
@@ -658,3 +672,4 @@
     </Layer>
   </Contents>
 </Capabilities>
+
