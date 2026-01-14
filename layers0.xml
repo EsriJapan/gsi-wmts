@@ -13,6 +13,20 @@
 </TileMatrixSetLink>
 <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/std/{TileMatrix}/{TileCol}/{TileRow}.png"/>
 </Layer>
+      
+<Layer>
+<ows:Title>地理院地図</ows:Title>
+<ows:Identifier>std</ows:Identifier>
+<Style isDefault="true">
+<ows:Identifier>default</ows:Identifier>
+</Style>
+<Format>image/png</Format>
+<TileMatrixSetLink>
+<TileMatrixSet>z0to18</TileMatrixSet>
+</TileMatrixSetLink>
+<ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/std/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+</Layer>
+
 <Layer>
 <ows:Title>淡色地図</ows:Title>
 <ows:Identifier>pale</ows:Identifier>
@@ -551,3 +565,4 @@
 </TileMatrixSet>
 </Contents>
 </Capabilities>
+
