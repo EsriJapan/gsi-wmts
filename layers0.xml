@@ -22,7 +22,7 @@
 </Style>
 <Format>image/png</Format>
 <TileMatrixSetLink>
-<TileMatrixSet>z0to18</TileMatrixSet>
+<TileMatrixSet>z2to18</TileMatrixSet>
 </TileMatrixSetLink>
 <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/std/{TileMatrix}/{TileCol}/{TileRow}.png"/>
 </Layer>
@@ -565,4 +565,5 @@
 </TileMatrixSet>
 </Contents>
 </Capabilities>
+
 
