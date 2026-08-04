@@ -255,7 +255,7 @@
          </TileMatrix>   
       </TileMatrixSet>
     <Layer>   
-     <ows:Title>令和8年熊本地震 熊本3地区 正射画像 (2026年8月1日撮影)</ows:Title>   
+     <ows:Title>令和8年熊本地震 熊本3地区 正射画像 (2026年7月31日、8月1日撮影)</ows:Title>   
      <ows:Identifier>20260729kumamoto_kumamoto3_0731_0801do</ows:Identifier>   
      <ows:WGS84BoundingBox>    
        <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    
